@@ -96,7 +96,25 @@
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/giocatore/Giocatore.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/giocatore/Giocatore.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/mazzo/Mazzo.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/mazzo/Mazzo.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/tabellone/Tabellone.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/tabellone/Tabellone.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/CMakeLists.txt">
