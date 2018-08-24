@@ -84,37 +84,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.cpp">
-			<Option target="GameOfTheMadGoose"/>
-		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.h">
-			<Option target="GameOfTheMadGoose"/>
-		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.cpp">
-			<Option target="GameOfTheMadGoose"/>
-		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.h">
-			<Option target="GameOfTheMadGoose"/>
-		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/giocatore/Giocatore.cpp">
-			<Option target="GameOfTheMadGoose"/>
-		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/giocatore/Giocatore.h">
-			<Option target="GameOfTheMadGoose"/>
-		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/mazzo/Mazzo.cpp">
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/mazzo/Mazzo.h">
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/tabellone/Tabellone.cpp">
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/tabellone/Tabellone.h">
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/mazzo/Mazzo.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/mazzo/Mazzo.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/tabellone/Tabellone.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/tabellone/Tabellone.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/CMakeLists.txt">

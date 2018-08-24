@@ -123,87 +123,6 @@ GameOfTheMadGoose/fast:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/build
 .PHONY : GameOfTheMadGoose/fast
 
-carta/Carta.o: carta/Carta.cpp.o
-
-.PHONY : carta/Carta.o
-
-# target to build an object file
-carta/Carta.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.o
-.PHONY : carta/Carta.cpp.o
-
-carta/Carta.i: carta/Carta.cpp.i
-
-.PHONY : carta/Carta.i
-
-# target to preprocess a source file
-carta/Carta.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.i
-.PHONY : carta/Carta.cpp.i
-
-carta/Carta.s: carta/Carta.cpp.s
-
-.PHONY : carta/Carta.s
-
-# target to generate assembly for a file
-carta/Carta.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.s
-.PHONY : carta/Carta.cpp.s
-
-casella/Casella.o: casella/Casella.cpp.o
-
-.PHONY : casella/Casella.o
-
-# target to build an object file
-casella/Casella.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.o
-.PHONY : casella/Casella.cpp.o
-
-casella/Casella.i: casella/Casella.cpp.i
-
-.PHONY : casella/Casella.i
-
-# target to preprocess a source file
-casella/Casella.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.i
-.PHONY : casella/Casella.cpp.i
-
-casella/Casella.s: casella/Casella.cpp.s
-
-.PHONY : casella/Casella.s
-
-# target to generate assembly for a file
-casella/Casella.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.s
-.PHONY : casella/Casella.cpp.s
-
-giocatore/Giocatore.o: giocatore/Giocatore.cpp.o
-
-.PHONY : giocatore/Giocatore.o
-
-# target to build an object file
-giocatore/Giocatore.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/giocatore/Giocatore.cpp.o
-.PHONY : giocatore/Giocatore.cpp.o
-
-giocatore/Giocatore.i: giocatore/Giocatore.cpp.i
-
-.PHONY : giocatore/Giocatore.i
-
-# target to preprocess a source file
-giocatore/Giocatore.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/giocatore/Giocatore.cpp.i
-.PHONY : giocatore/Giocatore.cpp.i
-
-giocatore/Giocatore.s: giocatore/Giocatore.cpp.s
-
-.PHONY : giocatore/Giocatore.s
-
-# target to generate assembly for a file
-giocatore/Giocatore.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/giocatore/Giocatore.cpp.s
-.PHONY : giocatore/Giocatore.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -231,59 +150,167 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mazzo/Mazzo.o: mazzo/Mazzo.cpp.o
+source/carta/Carta.o: source/carta/Carta.cpp.o
 
-.PHONY : mazzo/Mazzo.o
-
-# target to build an object file
-mazzo/Mazzo.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/mazzo/Mazzo.cpp.o
-.PHONY : mazzo/Mazzo.cpp.o
-
-mazzo/Mazzo.i: mazzo/Mazzo.cpp.i
-
-.PHONY : mazzo/Mazzo.i
-
-# target to preprocess a source file
-mazzo/Mazzo.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/mazzo/Mazzo.cpp.i
-.PHONY : mazzo/Mazzo.cpp.i
-
-mazzo/Mazzo.s: mazzo/Mazzo.cpp.s
-
-.PHONY : mazzo/Mazzo.s
-
-# target to generate assembly for a file
-mazzo/Mazzo.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/mazzo/Mazzo.cpp.s
-.PHONY : mazzo/Mazzo.cpp.s
-
-tabellone/Tabellone.o: tabellone/Tabellone.cpp.o
-
-.PHONY : tabellone/Tabellone.o
+.PHONY : source/carta/Carta.o
 
 # target to build an object file
-tabellone/Tabellone.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/tabellone/Tabellone.cpp.o
-.PHONY : tabellone/Tabellone.cpp.o
+source/carta/Carta.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o
+.PHONY : source/carta/Carta.cpp.o
 
-tabellone/Tabellone.i: tabellone/Tabellone.cpp.i
+source/carta/Carta.i: source/carta/Carta.cpp.i
 
-.PHONY : tabellone/Tabellone.i
+.PHONY : source/carta/Carta.i
 
 # target to preprocess a source file
-tabellone/Tabellone.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/tabellone/Tabellone.cpp.i
-.PHONY : tabellone/Tabellone.cpp.i
+source/carta/Carta.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.i
+.PHONY : source/carta/Carta.cpp.i
 
-tabellone/Tabellone.s: tabellone/Tabellone.cpp.s
+source/carta/Carta.s: source/carta/Carta.cpp.s
 
-.PHONY : tabellone/Tabellone.s
+.PHONY : source/carta/Carta.s
 
 # target to generate assembly for a file
-tabellone/Tabellone.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/tabellone/Tabellone.cpp.s
-.PHONY : tabellone/Tabellone.cpp.s
+source/carta/Carta.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.s
+.PHONY : source/carta/Carta.cpp.s
+
+source/casella/Casella.o: source/casella/Casella.cpp.o
+
+.PHONY : source/casella/Casella.o
+
+# target to build an object file
+source/casella/Casella.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o
+.PHONY : source/casella/Casella.cpp.o
+
+source/casella/Casella.i: source/casella/Casella.cpp.i
+
+.PHONY : source/casella/Casella.i
+
+# target to preprocess a source file
+source/casella/Casella.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.i
+.PHONY : source/casella/Casella.cpp.i
+
+source/casella/Casella.s: source/casella/Casella.cpp.s
+
+.PHONY : source/casella/Casella.s
+
+# target to generate assembly for a file
+source/casella/Casella.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.s
+.PHONY : source/casella/Casella.cpp.s
+
+source/esecutore/Esecutore.o: source/esecutore/Esecutore.cpp.o
+
+.PHONY : source/esecutore/Esecutore.o
+
+# target to build an object file
+source/esecutore/Esecutore.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o
+.PHONY : source/esecutore/Esecutore.cpp.o
+
+source/esecutore/Esecutore.i: source/esecutore/Esecutore.cpp.i
+
+.PHONY : source/esecutore/Esecutore.i
+
+# target to preprocess a source file
+source/esecutore/Esecutore.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.i
+.PHONY : source/esecutore/Esecutore.cpp.i
+
+source/esecutore/Esecutore.s: source/esecutore/Esecutore.cpp.s
+
+.PHONY : source/esecutore/Esecutore.s
+
+# target to generate assembly for a file
+source/esecutore/Esecutore.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.s
+.PHONY : source/esecutore/Esecutore.cpp.s
+
+source/giocatore/Giocatore.o: source/giocatore/Giocatore.cpp.o
+
+.PHONY : source/giocatore/Giocatore.o
+
+# target to build an object file
+source/giocatore/Giocatore.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o
+.PHONY : source/giocatore/Giocatore.cpp.o
+
+source/giocatore/Giocatore.i: source/giocatore/Giocatore.cpp.i
+
+.PHONY : source/giocatore/Giocatore.i
+
+# target to preprocess a source file
+source/giocatore/Giocatore.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.i
+.PHONY : source/giocatore/Giocatore.cpp.i
+
+source/giocatore/Giocatore.s: source/giocatore/Giocatore.cpp.s
+
+.PHONY : source/giocatore/Giocatore.s
+
+# target to generate assembly for a file
+source/giocatore/Giocatore.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.s
+.PHONY : source/giocatore/Giocatore.cpp.s
+
+source/mazzo/Mazzo.o: source/mazzo/Mazzo.cpp.o
+
+.PHONY : source/mazzo/Mazzo.o
+
+# target to build an object file
+source/mazzo/Mazzo.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o
+.PHONY : source/mazzo/Mazzo.cpp.o
+
+source/mazzo/Mazzo.i: source/mazzo/Mazzo.cpp.i
+
+.PHONY : source/mazzo/Mazzo.i
+
+# target to preprocess a source file
+source/mazzo/Mazzo.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.i
+.PHONY : source/mazzo/Mazzo.cpp.i
+
+source/mazzo/Mazzo.s: source/mazzo/Mazzo.cpp.s
+
+.PHONY : source/mazzo/Mazzo.s
+
+# target to generate assembly for a file
+source/mazzo/Mazzo.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.s
+.PHONY : source/mazzo/Mazzo.cpp.s
+
+source/tabellone/Tabellone.o: source/tabellone/Tabellone.cpp.o
+
+.PHONY : source/tabellone/Tabellone.o
+
+# target to build an object file
+source/tabellone/Tabellone.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o
+.PHONY : source/tabellone/Tabellone.cpp.o
+
+source/tabellone/Tabellone.i: source/tabellone/Tabellone.cpp.i
+
+.PHONY : source/tabellone/Tabellone.i
+
+# target to preprocess a source file
+source/tabellone/Tabellone.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.i
+.PHONY : source/tabellone/Tabellone.cpp.i
+
+source/tabellone/Tabellone.s: source/tabellone/Tabellone.cpp.s
+
+.PHONY : source/tabellone/Tabellone.s
+
+# target to generate assembly for a file
+source/tabellone/Tabellone.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.s
+.PHONY : source/tabellone/Tabellone.cpp.s
 
 # Help Target
 help:
@@ -294,24 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GameOfTheMadGoose"
-	@echo "... carta/Carta.o"
-	@echo "... carta/Carta.i"
-	@echo "... carta/Carta.s"
-	@echo "... casella/Casella.o"
-	@echo "... casella/Casella.i"
-	@echo "... casella/Casella.s"
-	@echo "... giocatore/Giocatore.o"
-	@echo "... giocatore/Giocatore.i"
-	@echo "... giocatore/Giocatore.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mazzo/Mazzo.o"
-	@echo "... mazzo/Mazzo.i"
-	@echo "... mazzo/Mazzo.s"
-	@echo "... tabellone/Tabellone.o"
-	@echo "... tabellone/Tabellone.i"
-	@echo "... tabellone/Tabellone.s"
+	@echo "... source/carta/Carta.o"
+	@echo "... source/carta/Carta.i"
+	@echo "... source/carta/Carta.s"
+	@echo "... source/casella/Casella.o"
+	@echo "... source/casella/Casella.i"
+	@echo "... source/casella/Casella.s"
+	@echo "... source/esecutore/Esecutore.o"
+	@echo "... source/esecutore/Esecutore.i"
+	@echo "... source/esecutore/Esecutore.s"
+	@echo "... source/giocatore/Giocatore.o"
+	@echo "... source/giocatore/Giocatore.i"
+	@echo "... source/giocatore/Giocatore.s"
+	@echo "... source/mazzo/Mazzo.o"
+	@echo "... source/mazzo/Mazzo.i"
+	@echo "... source/mazzo/Mazzo.s"
+	@echo "... source/tabellone/Tabellone.o"
+	@echo "... source/tabellone/Tabellone.i"
+	@echo "... source/tabellone/Tabellone.s"
 .PHONY : help
 
 

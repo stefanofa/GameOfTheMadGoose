@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.o"
-  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.o"
-  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/giocatore/Giocatore.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/giocatore/Giocatore.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o"
-  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/mazzo/Mazzo.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/mazzo/Mazzo.cpp.o"
-  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/tabellone/Tabellone.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/tabellone/Tabellone.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/mazzo/Mazzo.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/tabellone/Tabellone.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

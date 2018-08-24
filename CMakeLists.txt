@@ -3,4 +3,4 @@ project(GameOfTheMadGoose)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GameOfTheMadGoose main.cpp carta/Carta.cpp carta/Carta.h casella/Casella.cpp casella/Casella.h giocatore/Giocatore.cpp giocatore/Giocatore.h mazzo/Mazzo.cpp mazzo/Mazzo.h tabellone/Tabellone.cpp tabellone/Tabellone.h)
+add_executable(GameOfTheMadGoose main.cpp source/carta/Carta.cpp source/carta/Carta.h source/casella/Casella.cpp source/casella/Casella.h source/giocatore/Giocatore.cpp source/giocatore/Giocatore.h source/mazzo/Mazzo.cpp source/mazzo/Mazzo.h source/tabellone/Tabellone.cpp source/tabellone/Tabellone.h source/esecutore/Esecutore.cpp source/esecutore/Esecutore.h)
