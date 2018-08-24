@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o  -o GameOfTheMadGoose 
