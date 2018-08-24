@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.cpp
+Carta.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.cpp
+Casella.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.h
+
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp
 iostream
 -
