@@ -1,5 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o"
   "GameOfTheMadGoose.pdb"
   "GameOfTheMadGoose"
 )
