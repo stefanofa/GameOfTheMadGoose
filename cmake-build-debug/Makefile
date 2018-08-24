@@ -123,6 +123,60 @@ GameOfTheMadGoose/fast:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/build
 .PHONY : GameOfTheMadGoose/fast
 
+carta/Carta.o: carta/Carta.cpp.o
+
+.PHONY : carta/Carta.o
+
+# target to build an object file
+carta/Carta.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.o
+.PHONY : carta/Carta.cpp.o
+
+carta/Carta.i: carta/Carta.cpp.i
+
+.PHONY : carta/Carta.i
+
+# target to preprocess a source file
+carta/Carta.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.i
+.PHONY : carta/Carta.cpp.i
+
+carta/Carta.s: carta/Carta.cpp.s
+
+.PHONY : carta/Carta.s
+
+# target to generate assembly for a file
+carta/Carta.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.s
+.PHONY : carta/Carta.cpp.s
+
+casella/Casella.o: casella/Casella.cpp.o
+
+.PHONY : casella/Casella.o
+
+# target to build an object file
+casella/Casella.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.o
+.PHONY : casella/Casella.cpp.o
+
+casella/Casella.i: casella/Casella.cpp.i
+
+.PHONY : casella/Casella.i
+
+# target to preprocess a source file
+casella/Casella.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.i
+.PHONY : casella/Casella.cpp.i
+
+casella/Casella.s: casella/Casella.cpp.s
+
+.PHONY : casella/Casella.s
+
+# target to generate assembly for a file
+casella/Casella.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.s
+.PHONY : casella/Casella.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -321,6 +375,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GameOfTheMadGoose"
+	@echo "... carta/Carta.o"
+	@echo "... carta/Carta.i"
+	@echo "... carta/Carta.s"
+	@echo "... casella/Casella.o"
+	@echo "... casella/Casella.i"
+	@echo "... casella/Casella.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

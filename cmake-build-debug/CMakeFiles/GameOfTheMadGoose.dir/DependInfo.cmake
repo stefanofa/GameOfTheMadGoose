@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/carta/Carta.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/carta/Carta.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/casella/Casella.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/casella/Casella.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o"
