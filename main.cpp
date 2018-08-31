@@ -1,6 +1,11 @@
 #include <iostream>
+#include "source/esecutore/Esecutore.h"
 
 int main() {
-    std::cout << "Hello, Worldd!" << std::endl;
+
+    Esecutore gioco = Esecutore();
+
+    gioco.stampaGiocatori();
+
     return 0;
 }

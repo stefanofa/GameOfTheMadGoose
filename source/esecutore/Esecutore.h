@@ -6,8 +6,46 @@
 #define GAMEOFTHEMADGOOSE_ESECUTORE_H
 
 
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+#include "../giocatore/Giocatore.h"
+
+
+
+#define pointsToWin 1000
+
 class Esecutore {
 
+private:
+
+    bool end = false;
+    Giocatore* Winner = NULL;
+
+    //istanza di mazzo che permette di pescare una carta (ritorna una carta)
+    //utilizzando il metodo draw_Next_Card
+    //Mazzo mazzo ;
+
+    //
+    int nGiocatori = 0;
+    Giocatore* giocatoreAttuale = NULL ;
+
+
+
+
+public:
+
+    Esecutore();
+
+
+    void stampaGiocatori();
+
+    int decidiDimMazzo();
+    Giocatore* createListaGiocatori ();
+
+    virtual ~Esecutore();
 };
 
 
