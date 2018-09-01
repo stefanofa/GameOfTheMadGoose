@@ -148,6 +148,45 @@ CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp -o CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.s
 
+CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o: CMakeFiles/GameOfTheMadGoose.dir/flags.make
+CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o: ../source/elements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o -c /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp
+
+CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp > CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.i
+
+CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp -o CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.s
+
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: CMakeFiles/GameOfTheMadGoose.dir/flags.make
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: ../source/casella/CasellaFermo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o -c /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp
+
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp > CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.i
+
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp -o CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.s
+
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: CMakeFiles/GameOfTheMadGoose.dir/flags.make
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: ../source/casella/CasellaPunti.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o -c /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp
+
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp > CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.i
+
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp -o CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.s
+
 # Object files for target GameOfTheMadGoose
 GameOfTheMadGoose_OBJECTS = \
 "CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o" \
@@ -156,7 +195,10 @@ GameOfTheMadGoose_OBJECTS = \
 "CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o" \
 "CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o" \
 "CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o" \
-"CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o"
+"CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o" \
+"CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o" \
+"CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o" \
+"CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o"
 
 # External object files for target GameOfTheMadGoose
 GameOfTheMadGoose_EXTERNAL_OBJECTS =
@@ -168,9 +210,12 @@ GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.c
 GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o
 GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o
 GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o
+GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o
+GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o
+GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o
 GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/build.make
 GameOfTheMadGoose: CMakeFiles/GameOfTheMadGoose.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable GameOfTheMadGoose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable GameOfTheMadGoose"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameOfTheMadGoose.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

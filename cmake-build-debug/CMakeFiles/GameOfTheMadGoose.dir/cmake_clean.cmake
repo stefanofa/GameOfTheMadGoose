@@ -6,6 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o"
   "GameOfTheMadGoose.pdb"
   "GameOfTheMadGoose"
 )

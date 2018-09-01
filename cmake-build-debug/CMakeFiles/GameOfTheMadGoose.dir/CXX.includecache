@@ -12,6 +12,8 @@ iostream
 source/esecutore/Esecutore.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
+
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 iostream
 -
@@ -19,6 +21,8 @@ cstdlib
 -
 ../giocatore/Giocatore.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
+../elements.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
 
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
 cstring

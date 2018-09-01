@@ -204,6 +204,87 @@ source/casella/Casella.cpp.s:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.s
 .PHONY : source/casella/Casella.cpp.s
 
+source/casella/CasellaFermo.o: source/casella/CasellaFermo.cpp.o
+
+.PHONY : source/casella/CasellaFermo.o
+
+# target to build an object file
+source/casella/CasellaFermo.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o
+.PHONY : source/casella/CasellaFermo.cpp.o
+
+source/casella/CasellaFermo.i: source/casella/CasellaFermo.cpp.i
+
+.PHONY : source/casella/CasellaFermo.i
+
+# target to preprocess a source file
+source/casella/CasellaFermo.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.i
+.PHONY : source/casella/CasellaFermo.cpp.i
+
+source/casella/CasellaFermo.s: source/casella/CasellaFermo.cpp.s
+
+.PHONY : source/casella/CasellaFermo.s
+
+# target to generate assembly for a file
+source/casella/CasellaFermo.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.s
+.PHONY : source/casella/CasellaFermo.cpp.s
+
+source/casella/CasellaPunti.o: source/casella/CasellaPunti.cpp.o
+
+.PHONY : source/casella/CasellaPunti.o
+
+# target to build an object file
+source/casella/CasellaPunti.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o
+.PHONY : source/casella/CasellaPunti.cpp.o
+
+source/casella/CasellaPunti.i: source/casella/CasellaPunti.cpp.i
+
+.PHONY : source/casella/CasellaPunti.i
+
+# target to preprocess a source file
+source/casella/CasellaPunti.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.i
+.PHONY : source/casella/CasellaPunti.cpp.i
+
+source/casella/CasellaPunti.s: source/casella/CasellaPunti.cpp.s
+
+.PHONY : source/casella/CasellaPunti.s
+
+# target to generate assembly for a file
+source/casella/CasellaPunti.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.s
+.PHONY : source/casella/CasellaPunti.cpp.s
+
+source/elements.o: source/elements.cpp.o
+
+.PHONY : source/elements.o
+
+# target to build an object file
+source/elements.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o
+.PHONY : source/elements.cpp.o
+
+source/elements.i: source/elements.cpp.i
+
+.PHONY : source/elements.i
+
+# target to preprocess a source file
+source/elements.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.i
+.PHONY : source/elements.cpp.i
+
+source/elements.s: source/elements.cpp.s
+
+.PHONY : source/elements.s
+
+# target to generate assembly for a file
+source/elements.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.s
+.PHONY : source/elements.cpp.s
+
 source/esecutore/Esecutore.o: source/esecutore/Esecutore.cpp.o
 
 .PHONY : source/esecutore/Esecutore.o
@@ -330,6 +411,15 @@ help:
 	@echo "... source/casella/Casella.o"
 	@echo "... source/casella/Casella.i"
 	@echo "... source/casella/Casella.s"
+	@echo "... source/casella/CasellaFermo.o"
+	@echo "... source/casella/CasellaFermo.i"
+	@echo "... source/casella/CasellaFermo.s"
+	@echo "... source/casella/CasellaPunti.o"
+	@echo "... source/casella/CasellaPunti.i"
+	@echo "... source/casella/CasellaPunti.s"
+	@echo "... source/elements.o"
+	@echo "... source/elements.i"
+	@echo "... source/elements.s"
 	@echo "... source/esecutore/Esecutore.o"
 	@echo "... source/esecutore/Esecutore.i"
 	@echo "... source/esecutore/Esecutore.s"

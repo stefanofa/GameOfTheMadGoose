@@ -99,6 +99,24 @@
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>

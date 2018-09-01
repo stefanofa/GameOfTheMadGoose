@@ -1,0 +1,14 @@
+//
+// Created by stefanofa on 01/09/18.
+//
+
+#ifndef GAMEOFTHEMADGOOSE_CASELLAPUNTI_H
+#define GAMEOFTHEMADGOOSE_CASELLAPUNTI_H
+
+
+class CasellaPunti {
+
+};
+
+
+#endif //GAMEOFTHEMADGOOSE_CASELLAPUNTI_H

@@ -1,0 +1,14 @@
+//
+// Created by stefanofa on 01/09/18.
+//
+
+#ifndef GAMEOFTHEMADGOOSE_CASELLAFERMO_H
+#define GAMEOFTHEMADGOOSE_CASELLAFERMO_H
+
+
+class CasellaFermo {
+
+};
+
+
+#endif //GAMEOFTHEMADGOOSE_CASELLAFERMO_H

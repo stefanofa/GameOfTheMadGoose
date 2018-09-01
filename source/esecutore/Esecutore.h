@@ -12,7 +12,7 @@
 using namespace std;
 
 #include "../giocatore/Giocatore.h"
-
+#include "../elements.h"
 
 
 #define pointsToWin 1000

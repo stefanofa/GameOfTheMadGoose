@@ -44,7 +44,7 @@ Giocatore* Esecutore::createListaGiocatori () {
     do {
 
         if (!primo) {
-            system ("cls");
+            cls();
             cout << "ERRORE - HAI INSERITO UN VALORE NON CONSENTITO!" << endl;
         }
 
@@ -59,7 +59,7 @@ Giocatore* Esecutore::createListaGiocatori () {
 
     int i = 1;
 
-    system ("cls");
+    cls();
 
     cout << "Inserisci il nome del " << i << "° giocatore." << endl ;
     cout << "->";
@@ -72,7 +72,7 @@ Giocatore* Esecutore::createListaGiocatori () {
 
     for (;i <= this->nGiocatori; i++) {
 
-        system("cls");
+        cls();
 
         cout << "Inserisci il nome del " << i << "° giocatore." << endl ;
         cout << "->";
