@@ -6,8 +6,16 @@
 #define GAMEOFTHEMADGOOSE_CASELLAFERMO_H
 
 
-class CasellaFermo {
+#include "Casella.h"
 
+class CasellaFermo: public Casella {
+public:
+    CasellaFermo(Casella* Destra = NULL, Casella* Sinistra = NULL);
+
+    void applicaEffetto(Giocatore* player) override;
+    void stampaMsg() override;
+
+    virtual ~CasellaFermo();
 };
 
 

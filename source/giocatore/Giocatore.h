@@ -6,6 +6,7 @@
 #define GAMEOFTHEMADGOOSE_GIOCATORE_H_
 
 #include <cstring>
+#include "../casella/Casella.h"
 
 
 struct effettoAturni {
@@ -19,7 +20,7 @@ class Giocatore {
 
 private:
 
-    //Casella* onCasella = NULL;
+    Casella* onCasella = NULL;
 
     char nome[20];
     int punti;
@@ -37,7 +38,7 @@ public:
 
     Giocatore(char nome[20] , Giocatore* nextPlayer = NULL);
 
-    //void setCasella (Casella* cas);
+    void setCasella (Casella* cas);
 
     void setDir (Direzione dir);
 
@@ -71,6 +72,8 @@ public:
     void foundGOP();
     int getnGOPCards() ;
 
+
+    void add_points (int value);
     //void Player_add_points (int value) ;
 
     bool twoOfThree ();

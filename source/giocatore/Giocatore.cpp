@@ -39,11 +39,11 @@ void Giocatore::setDir (Direzione dir) {
     this->dir = dir;
 }
 
-/*
+
 void Giocatore::setCasella (Casella* cas) {
     this->onCasella = cas;
 }
-*/
+
 
 char* Giocatore::getStringDirection () {
 
@@ -146,6 +146,14 @@ void Giocatore::decTurniFermo () {
     this->fermo.num_turni -- ;
     this->fermo.num_turni =
             (this->fermo.num_turni > 0) ? this->fermo.num_turni : 0 ;
+}
+
+void Giocatore::add_points(int value) {
+    if (!(this->isImmune() && value < 0))
+    {
+        this->punti += (this->hasDoublePoints()  && value>0) ? value*2 : value ;
+        if (this->punti < 0) this->punti = 0;
+    }
 }
 
 /*void Giocatore::Player_add_points (int value) {

@@ -12,7 +12,37 @@ iostream
 source/esecutore/Esecutore.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.cpp
+Casella.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
+iostream
+-
+../elements.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp
+CasellaFermo.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
+Casella.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp
+CasellaPunti.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
+Casella.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp
+Esecutore.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 iostream
@@ -24,7 +54,13 @@ cstdlib
 ../elements.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
 
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.cpp
+Giocatore.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
+
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
 cstring
 -
+../casella/Casella.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
 
