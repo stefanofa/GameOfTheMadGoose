@@ -11,6 +11,8 @@ Esecutore::Esecutore() {
     this->end = false;
     this->Winner = NULL;
 
+    this->tabellone = Tabellone(57);
+
     this->giocatoreAttuale = createListaGiocatori() ;
 
 
@@ -19,10 +21,26 @@ Esecutore::Esecutore() {
 
 void Esecutore::stampaGiocatori() {
 
+    Casella* tmp;
 
     for (int i=0; i<nGiocatori; i++) {
 
         cout<<this->giocatoreAttuale->getName() << endl;
+
+     //   cout<<"TIPOCASELLA : " << this->giocatoreAttuale->getCasella()->tipocasella() << endl;
+     //   cout <<this->giocatoreAttuale->getCasella()->getMessage();
+
+        pause();
+
+        cout << endl << "tipocasella : " << giocatoreAttuale->getCasella()->tipocasella() << endl;
+
+        cout <<"PUNTI PRIMA : " << this->giocatoreAttuale->getPoints() << endl;
+
+        tmp = this->giocatoreAttuale->getCasella();
+        tmp->applicaEffetto(this->giocatoreAttuale);
+
+        cout <<"PUNTI DOPO : " << this->giocatoreAttuale->getPoints() << endl;
+
         this->giocatoreAttuale = this->giocatoreAttuale->getNextPlayer();
 
     }
@@ -65,7 +83,7 @@ Giocatore* Esecutore::createListaGiocatori () {
     cout << "->";
     cin >> nome;
 
-    primoGiocatore = new Giocatore(nome,NULL);
+    primoGiocatore = new Giocatore(nome,NULL,tabellone.getStart());
     tmpPrev = primoGiocatore;
 
     i++;
@@ -78,7 +96,7 @@ Giocatore* Esecutore::createListaGiocatori () {
         cout << "->";
         cin >> nome;
 
-        tmp = new Giocatore(nome,NULL);
+        tmp = new Giocatore(nome,NULL,tabellone.getStart());
         tmpPrev->setNextPlayer(tmp);
         tmpPrev = tmp;
 

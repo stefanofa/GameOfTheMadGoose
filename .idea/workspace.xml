@@ -12,16 +12,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c44f320e-5cb1-45cf-923e-402cc11ce00b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GameOfTheMadGoose" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GameOfTheMadGoose" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/casella/Casella.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/Casella.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/casella/Casella.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/Casella.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/casella/CasellaFermo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaFermo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/casella/CasellaFermo.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaFermo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/casella/CasellaPunti.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaPunti.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/casella/CasellaPunti.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaPunti.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/esecutore/Esecutore.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/esecutore/Esecutore.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/giocatore/Giocatore.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/giocatore/Giocatore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/tabellone/Tabellone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/tabellone/Tabellone.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/tabellone/Tabellone.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/tabellone/Tabellone.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,86 +52,85 @@
     <session id="-565765848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="464" />
-          <entry key="h" value="214" />
+          <entry key="cpp" value="1832" />
+          <entry key="h" value="658" />
           <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="678" />
+          <entry key="ObjectiveC" value="2490" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="10" />
-          <entry key="h" value="9" />
+          <entry key="cpp" value="20" />
+          <entry key="h" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="19" />
+          <entry key="ObjectiveC" value="36" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/esecutore/Esecutore.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.h">
+        <entry file="file://$PROJECT_DIR$/source/esecutore/Esecutore.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-58">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="e#123#141#0" expanded="true" />
+                <element signature="e#122#141#0" expanded="true" />
+                <element signature="e#219#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.cpp">
+        <entry file="file://$PROJECT_DIR$/source/tabellone/Tabellone.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="377">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="e#121#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/tabellone/Tabellone.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -122,8 +138,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/casella/CasellaPunti.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="204">
+              <caret line="15" selection-start-line="10" selection-start-column="1" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -131,8 +156,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/casella/CasellaPunti.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="345">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -140,20 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/casella/Casella.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/elements.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="e#45#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -161,13 +183,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/casella/Casella.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="179">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#117#136#0" expanded="true" />
+                <element signature="e#177#201#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tabellone</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -181,18 +212,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/elements.h" />
-        <option value="$PROJECT_DIR$/source/esecutore/Esecutore.h" />
-        <option value="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" />
         <option value="$PROJECT_DIR$/source/elements.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/source/casella/CasellaFermo.h" />
-        <option value="$PROJECT_DIR$/source/casella/CasellaFermo.cpp" />
-        <option value="$PROJECT_DIR$/source/casella/Casella.cpp" />
-        <option value="$PROJECT_DIR$/source/casella/CasellaPunti.h" />
-        <option value="$PROJECT_DIR$/source/casella/CasellaPunti.cpp" />
         <option value="$PROJECT_DIR$/source/giocatore/Giocatore.h" />
         <option value="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" />
+        <option value="$PROJECT_DIR$/source/esecutore/Esecutore.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/source/casella/CasellaFermo.h" />
+        <option value="$PROJECT_DIR$/source/casella/CasellaPunti.h" />
+        <option value="$PROJECT_DIR$/source/casella/CasellaFermo.cpp" />
+        <option value="$PROJECT_DIR$/source/casella/CasellaPunti.cpp" />
         <option value="$PROJECT_DIR$/source/casella/Casella.h" />
+        <option value="$PROJECT_DIR$/source/casella/Casella.cpp" />
+        <option value="$PROJECT_DIR$/source/tabellone/Tabellone.h" />
+        <option value="$PROJECT_DIR$/source/tabellone/Tabellone.cpp" />
+        <option value="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" />
       </list>
     </option>
   </component>
@@ -213,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +262,19 @@
               <item name="GameOfTheMadGoose" type="b2602c69:ProjectViewProjectNode" />
               <item name="GameOfTheMadGoose" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="carta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameOfTheMadGoose" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameOfTheMadGoose" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="casella" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameOfTheMadGoose" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameOfTheMadGoose" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="esecutore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameOfTheMadGoose" type="b2602c69:ProjectViewProjectNode" />
@@ -238,10 +282,17 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="giocatore" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GameOfTheMadGoose" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameOfTheMadGoose" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="tabellone" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +348,11 @@
       <workItem from="1535129591701" duration="131000" />
       <workItem from="1535553407526" duration="3585000" />
       <workItem from="1535796893062" duration="2488000" />
-      <workItem from="1535820008986" duration="2930000" />
+      <workItem from="1535820008986" duration="3119000" />
+      <workItem from="1535824505435" duration="441000" />
+      <workItem from="1535899385237" duration="1204000" />
+      <workItem from="1535902050146" duration="4129000" />
+      <workItem from="1535987055295" duration="4629000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1535127834485</created>
@@ -310,35 +365,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10212000" />
+    <option name="totallyTimeSpent" value="20804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2257886" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24432433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32864866" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2257886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23685667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,7 +390,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -380,21 +412,17 @@
     <entry file="file://$PROJECT_DIR$/source/carta/Carta.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/esecutore/Esecutore.h">
+    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#122#141#0" expanded="true" />
-            <element signature="e#184#219#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -408,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/elements.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -425,62 +446,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/esecutore/Esecutore.cpp">
+    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/casella/CasellaPunti.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="345">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/casella/CasellaPunti.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="10" selection-start-column="1" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.h">
+    <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="180">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/casella/Casella.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#123#141#0" expanded="true" />
+            <element signature="e#117#136#0" expanded="true" />
+            <element signature="e#177#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/casella/Casella.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.cpp">
+    <entry file="file://$PROJECT_DIR$/source/tabellone/Tabellone.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="215">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/casella/Casella.h">
+    <entry file="file://$PROJECT_DIR$/source/tabellone/Tabellone.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="377">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#121#152#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/casella/CasellaFermo.cpp">
+    <entry file="file://$PROJECT_DIR$/source/esecutore/Esecutore.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="-58">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#122#141#0" expanded="true" />
+            <element signature="e#219#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/esecutore/Esecutore.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
         </state>
       </provider>
     </entry>

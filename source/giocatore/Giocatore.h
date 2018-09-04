@@ -5,6 +5,8 @@
 #ifndef GAMEOFTHEMADGOOSE_GIOCATORE_H_
 #define GAMEOFTHEMADGOOSE_GIOCATORE_H_
 
+class Casella;
+
 #include <cstring>
 #include "../casella/Casella.h"
 
@@ -36,9 +38,10 @@ private:
 
 public:
 
-    Giocatore(char nome[20] , Giocatore* nextPlayer = NULL);
+    Giocatore(char nome[20] , Giocatore* nextPlayer = NULL , Casella* cas = NULL);
 
     void setCasella (Casella* cas);
+    Casella* getCasella ();
 
     void setDir (Direzione dir);
 

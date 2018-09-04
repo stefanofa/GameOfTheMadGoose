@@ -5,7 +5,7 @@
 
 #include "Giocatore.h"
 
-Giocatore::Giocatore(char nome[20] , Giocatore* nextPlayer) {
+Giocatore::Giocatore(char nome[20] , Giocatore* nextPlayer , Casella* cas ) {
 
     strcpy (this->nome,nome);
     this->punti = 0;
@@ -19,6 +19,8 @@ Giocatore::Giocatore(char nome[20] , Giocatore* nextPlayer) {
     this->fermo.num_turni = 0;
 
     this->nextPlayer = nextPlayer;
+
+    this->onCasella = cas;
 
     this->has_GOP = 0;
 
@@ -44,13 +46,24 @@ void Giocatore::setCasella (Casella* cas) {
     this->onCasella = cas;
 }
 
+Casella* Giocatore::getCasella() {
+    return this->onCasella;
+}
 
+
+//ritorna una stringa che indica la direzione del giocatore passato come parametro
 char* Giocatore::getStringDirection () {
 
-    Direzione actualDir = this->dir;
+    char* parolaD = (char*) malloc(sizeof(char)*9);
+    char* parolaS = (char*) malloc(sizeof(char)*9);
 
-    if (actualDir == destra) return "Destra\0";
-    else return "Sinistra\0";
+    strcpy(parolaD,"Destra");
+    strcpy(parolaS,"Sinistra");
+
+
+
+    if (dir == destra) return parolaD;
+    else return parolaS;
 
 }
 

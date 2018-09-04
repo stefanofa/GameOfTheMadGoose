@@ -3,9 +3,12 @@
 
 CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../main.cpp
 CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/casella/Casella.h
+CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/casella/CasellaFermo.h
+CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/casella/CasellaPunti.h
 CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/elements.h
 CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/esecutore/Esecutore.h
 CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/giocatore/Giocatore.h
+CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o: ../source/tabellone/Tabellone.h
 
 CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o: ../source/carta/Carta.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o: ../source/carta/Carta.h
@@ -13,24 +16,30 @@ CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o: ../source/carta/Carta
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o: ../source/casella/Casella.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o: ../source/casella/Casella.h
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o: ../source/elements.h
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o: ../source/giocatore/Giocatore.h
 
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: ../source/casella/Casella.h
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: ../source/casella/CasellaFermo.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: ../source/casella/CasellaFermo.h
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: ../source/elements.h
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o: ../source/giocatore/Giocatore.h
 
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: ../source/casella/Casella.h
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: ../source/casella/CasellaPunti.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: ../source/casella/CasellaPunti.h
 CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: ../source/elements.h
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o: ../source/giocatore/Giocatore.h
 
 CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o: ../source/elements.cpp
 
 CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/casella/Casella.h
+CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/casella/CasellaFermo.h
+CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/casella/CasellaPunti.h
 CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/elements.h
 CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/esecutore/Esecutore.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/esecutore/Esecutore.h
 CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/giocatore/Giocatore.h
+CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o: ../source/tabellone/Tabellone.h
 
 CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o: ../source/casella/Casella.h
 CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o: ../source/elements.h
@@ -40,6 +49,11 @@ CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o: ../source/gio
 CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o: ../source/mazzo/Mazzo.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o: ../source/mazzo/Mazzo.h
 
+CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/casella/Casella.h
+CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/casella/CasellaFermo.h
+CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/casella/CasellaPunti.h
+CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/elements.h
+CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/giocatore/Giocatore.h
 CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/tabellone/Tabellone.cpp
 CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o: ../source/tabellone/Tabellone.h
 

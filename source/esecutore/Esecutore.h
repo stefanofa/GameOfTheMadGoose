@@ -8,8 +8,12 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <random>
+#include <ctime>
 
 using namespace std;
+
+#include "../tabellone/Tabellone.h"
 
 #include "../giocatore/Giocatore.h"
 #include "../elements.h"
@@ -32,7 +36,7 @@ private:
     int nGiocatori = 0;
     Giocatore* giocatoreAttuale = NULL ;
 
-
+    Tabellone tabellone;
 
 
 public:

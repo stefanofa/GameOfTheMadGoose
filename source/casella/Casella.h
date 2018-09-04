@@ -6,12 +6,14 @@
 #define GAMEOFTHEMADGOOSE_CASELLA_H
 
 #include <iostream>
+#include <cstring>
 using namespace std;
 
-#include "../elements.h"
-//#include "../giocatore/Giocatore.h"
-
 class Giocatore;
+
+#include "../elements.h"
+#include "../giocatore/Giocatore.h"
+
 
 class Casella {
 
@@ -30,7 +32,10 @@ public:
     Casella* getSinistra();
 
     virtual void applicaEffetto(Giocatore* player);
-    virtual void stampaMsg();
+  //  virtual void stampaMsg();
+    virtual char* getMessage();
+
+    virtual int tipocasella();
 
     virtual ~Casella();
 };

@@ -16,10 +16,16 @@ private:
     int punticasella ;
 
 public:
+
+
     CasellaPunti(Casella* Destra = NULL, Casella* Sinistra = NULL);
 
     void applicaEffetto(Giocatore* player) override;
-    void stampaMsg() override;
+    //void stampaMsg() override;
+    char* getMessage() override;
+
+
+    int tipocasella() override;
 
     virtual ~CasellaPunti();
 };

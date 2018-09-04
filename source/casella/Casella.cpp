@@ -4,6 +4,7 @@
 
 #include "Casella.h"
 
+
 Casella::Casella(Casella* Destra, Casella* Sinistra) {
     this->Destra = Destra;
     this->Sinistra = Sinistra;
@@ -30,8 +31,22 @@ void Casella::applicaEffetto(Giocatore* player) {
 //
 }
 
-void Casella::stampaMsg() {
+/*void Casella::stampaMsg() {
 //
+}
+*/
+
+char* Casella::getMessage() {
+    char* msg = (char*)malloc(sizeof(char)*100);
+
+    strcat(msg,"Questa e' una casella vuota!");
+
+    return msg;
+
+}
+
+int Casella::tipocasella() {
+    return 0;
 }
 
 Casella::~Casella() {

@@ -10,7 +10,7 @@ CasellaFermo::CasellaFermo(Casella* Destra, Casella* Sinistra) : Casella (Destra
 
 void CasellaFermo::applicaEffetto (Giocatore* player) {
 
-    this->stampaMsg();
+//    this->stampaMsg();
 
     //player->setCasella(this);
 
@@ -24,6 +24,7 @@ void CasellaFermo::applicaEffetto (Giocatore* player) {
 
 }
 
+/*
 void CasellaFermo::stampaMsg() {
 
     cout << "Questa volta sei stato sfortunato!" << endl;
@@ -31,6 +32,23 @@ void CasellaFermo::stampaMsg() {
 
     system("pause");
 
+}
+*/
+
+char* CasellaFermo::getMessage() {
+
+    char* msg = (char*)malloc(sizeof(char)*150);
+
+
+
+    strcat(msg,"Questa volta sei stato sfortunato! \n Sei capitato sulla casella 'Resta fermo al prossimo turno'");
+
+    return msg;
+
+}
+
+int CasellaFermo::tipocasella() {
+    return 1;
 }
 
 CasellaFermo::~CasellaFermo() {
