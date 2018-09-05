@@ -3,12 +3,16 @@
 //
 
 
+#include "elements.h"
+
 #include <cstdio>
 #include <iostream>
 #include <cstring>
 #include <limits>
 
 using namespace std;
+
+
 
 void cls() {
     //for (int i = 0; i < 10; ++i) printf( "\n\n\n\n\n\n\n\n\n\n" );
@@ -28,4 +32,16 @@ void pause() {
     clearCin();
     cin.putback('\n');
     cin.get();
+}
+
+int Throw(int n) {
+
+    int value = 0;
+
+    for (int i=0 ; i < n ; i++) {
+        value += (rand()%6)+1;
+    }
+
+    return value;
+
 }

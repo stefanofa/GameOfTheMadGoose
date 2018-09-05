@@ -13,6 +13,8 @@ Esecutore::Esecutore() {
 
     this->tabellone = Tabellone(57);
 
+    this->mazzo = Mazzo();
+
     this->giocatoreAttuale = createListaGiocatori() ;
 
 
@@ -44,6 +46,11 @@ void Esecutore::stampaGiocatori() {
         this->giocatoreAttuale = this->giocatoreAttuale->getNextPlayer();
 
     }
+
+    Carta* cartaesempio ;
+    cartaesempio = mazzo.draw_Next_Card();
+
+    cartaesempio->applicaEffetto(this->giocatoreAttuale);
 
 
 }

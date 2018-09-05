@@ -93,6 +93,42 @@
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaAbbassa.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaAbbassa.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaGOP.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaGOP.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaImmunita.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaImmunita.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaInverti.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaInverti.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaRaddoppia.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaRaddoppia.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>

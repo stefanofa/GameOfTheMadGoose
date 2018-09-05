@@ -18,6 +18,9 @@ using namespace std;
 #include "../giocatore/Giocatore.h"
 #include "../elements.h"
 
+#include "../mazzo/Mazzo.h"
+
+
 
 #define pointsToWin 1000
 
@@ -37,6 +40,7 @@ private:
     Giocatore* giocatoreAttuale = NULL ;
 
     Tabellone tabellone;
+    Mazzo mazzo;
 
 
 public:

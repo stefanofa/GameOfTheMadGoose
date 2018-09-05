@@ -177,6 +177,168 @@ source/carta/Carta.cpp.s:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.s
 .PHONY : source/carta/Carta.cpp.s
 
+source/carta/CartaAbbassa.o: source/carta/CartaAbbassa.cpp.o
+
+.PHONY : source/carta/CartaAbbassa.o
+
+# target to build an object file
+source/carta/CartaAbbassa.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaAbbassa.cpp.o
+.PHONY : source/carta/CartaAbbassa.cpp.o
+
+source/carta/CartaAbbassa.i: source/carta/CartaAbbassa.cpp.i
+
+.PHONY : source/carta/CartaAbbassa.i
+
+# target to preprocess a source file
+source/carta/CartaAbbassa.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaAbbassa.cpp.i
+.PHONY : source/carta/CartaAbbassa.cpp.i
+
+source/carta/CartaAbbassa.s: source/carta/CartaAbbassa.cpp.s
+
+.PHONY : source/carta/CartaAbbassa.s
+
+# target to generate assembly for a file
+source/carta/CartaAbbassa.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaAbbassa.cpp.s
+.PHONY : source/carta/CartaAbbassa.cpp.s
+
+source/carta/CartaGOP.o: source/carta/CartaGOP.cpp.o
+
+.PHONY : source/carta/CartaGOP.o
+
+# target to build an object file
+source/carta/CartaGOP.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaGOP.cpp.o
+.PHONY : source/carta/CartaGOP.cpp.o
+
+source/carta/CartaGOP.i: source/carta/CartaGOP.cpp.i
+
+.PHONY : source/carta/CartaGOP.i
+
+# target to preprocess a source file
+source/carta/CartaGOP.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaGOP.cpp.i
+.PHONY : source/carta/CartaGOP.cpp.i
+
+source/carta/CartaGOP.s: source/carta/CartaGOP.cpp.s
+
+.PHONY : source/carta/CartaGOP.s
+
+# target to generate assembly for a file
+source/carta/CartaGOP.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaGOP.cpp.s
+.PHONY : source/carta/CartaGOP.cpp.s
+
+source/carta/CartaImmunita.o: source/carta/CartaImmunita.cpp.o
+
+.PHONY : source/carta/CartaImmunita.o
+
+# target to build an object file
+source/carta/CartaImmunita.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaImmunita.cpp.o
+.PHONY : source/carta/CartaImmunita.cpp.o
+
+source/carta/CartaImmunita.i: source/carta/CartaImmunita.cpp.i
+
+.PHONY : source/carta/CartaImmunita.i
+
+# target to preprocess a source file
+source/carta/CartaImmunita.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaImmunita.cpp.i
+.PHONY : source/carta/CartaImmunita.cpp.i
+
+source/carta/CartaImmunita.s: source/carta/CartaImmunita.cpp.s
+
+.PHONY : source/carta/CartaImmunita.s
+
+# target to generate assembly for a file
+source/carta/CartaImmunita.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaImmunita.cpp.s
+.PHONY : source/carta/CartaImmunita.cpp.s
+
+source/carta/CartaIndovina.o: source/carta/CartaIndovina.cpp.o
+
+.PHONY : source/carta/CartaIndovina.o
+
+# target to build an object file
+source/carta/CartaIndovina.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaIndovina.cpp.o
+.PHONY : source/carta/CartaIndovina.cpp.o
+
+source/carta/CartaIndovina.i: source/carta/CartaIndovina.cpp.i
+
+.PHONY : source/carta/CartaIndovina.i
+
+# target to preprocess a source file
+source/carta/CartaIndovina.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaIndovina.cpp.i
+.PHONY : source/carta/CartaIndovina.cpp.i
+
+source/carta/CartaIndovina.s: source/carta/CartaIndovina.cpp.s
+
+.PHONY : source/carta/CartaIndovina.s
+
+# target to generate assembly for a file
+source/carta/CartaIndovina.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaIndovina.cpp.s
+.PHONY : source/carta/CartaIndovina.cpp.s
+
+source/carta/CartaInverti.o: source/carta/CartaInverti.cpp.o
+
+.PHONY : source/carta/CartaInverti.o
+
+# target to build an object file
+source/carta/CartaInverti.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaInverti.cpp.o
+.PHONY : source/carta/CartaInverti.cpp.o
+
+source/carta/CartaInverti.i: source/carta/CartaInverti.cpp.i
+
+.PHONY : source/carta/CartaInverti.i
+
+# target to preprocess a source file
+source/carta/CartaInverti.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaInverti.cpp.i
+.PHONY : source/carta/CartaInverti.cpp.i
+
+source/carta/CartaInverti.s: source/carta/CartaInverti.cpp.s
+
+.PHONY : source/carta/CartaInverti.s
+
+# target to generate assembly for a file
+source/carta/CartaInverti.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaInverti.cpp.s
+.PHONY : source/carta/CartaInverti.cpp.s
+
+source/carta/CartaRaddoppia.o: source/carta/CartaRaddoppia.cpp.o
+
+.PHONY : source/carta/CartaRaddoppia.o
+
+# target to build an object file
+source/carta/CartaRaddoppia.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaRaddoppia.cpp.o
+.PHONY : source/carta/CartaRaddoppia.cpp.o
+
+source/carta/CartaRaddoppia.i: source/carta/CartaRaddoppia.cpp.i
+
+.PHONY : source/carta/CartaRaddoppia.i
+
+# target to preprocess a source file
+source/carta/CartaRaddoppia.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaRaddoppia.cpp.i
+.PHONY : source/carta/CartaRaddoppia.cpp.i
+
+source/carta/CartaRaddoppia.s: source/carta/CartaRaddoppia.cpp.s
+
+.PHONY : source/carta/CartaRaddoppia.s
+
+# target to generate assembly for a file
+source/carta/CartaRaddoppia.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaRaddoppia.cpp.s
+.PHONY : source/carta/CartaRaddoppia.cpp.s
+
 source/casella/Casella.o: source/casella/Casella.cpp.o
 
 .PHONY : source/casella/Casella.o
@@ -408,6 +570,24 @@ help:
 	@echo "... source/carta/Carta.o"
 	@echo "... source/carta/Carta.i"
 	@echo "... source/carta/Carta.s"
+	@echo "... source/carta/CartaAbbassa.o"
+	@echo "... source/carta/CartaAbbassa.i"
+	@echo "... source/carta/CartaAbbassa.s"
+	@echo "... source/carta/CartaGOP.o"
+	@echo "... source/carta/CartaGOP.i"
+	@echo "... source/carta/CartaGOP.s"
+	@echo "... source/carta/CartaImmunita.o"
+	@echo "... source/carta/CartaImmunita.i"
+	@echo "... source/carta/CartaImmunita.s"
+	@echo "... source/carta/CartaIndovina.o"
+	@echo "... source/carta/CartaIndovina.i"
+	@echo "... source/carta/CartaIndovina.s"
+	@echo "... source/carta/CartaInverti.o"
+	@echo "... source/carta/CartaInverti.i"
+	@echo "... source/carta/CartaInverti.s"
+	@echo "... source/carta/CartaRaddoppia.o"
+	@echo "... source/carta/CartaRaddoppia.i"
+	@echo "... source/carta/CartaRaddoppia.s"
 	@echo "... source/casella/Casella.o"
 	@echo "... source/casella/Casella.i"
 	@echo "... source/casella/Casella.s"
