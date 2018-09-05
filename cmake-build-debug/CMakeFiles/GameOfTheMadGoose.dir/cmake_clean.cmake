@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/mazzo/Mazzo.cpp.o"
@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaIndovina.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaInverti.cpp.o"
   "CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaRaddoppia.cpp.o"
+  "CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPesca.cpp.o"
   "GameOfTheMadGoose.pdb"
   "GameOfTheMadGoose"
 )

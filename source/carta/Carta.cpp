@@ -7,7 +7,7 @@
 Carta::Carta() = default;
 
 void applicaEffetto (Giocatore* player) {
-
+    cout<<"carta vuota";
 }
 
 void Carta::addPoints(Giocatore* player , int value) {
@@ -24,13 +24,14 @@ void Carta::addPoints(Giocatore* player , int value) {
 
 void Carta::addPointsToPlayer(Giocatore* player) {
 
-    cout << "Tira il dado per moltiplicare i punti ottenuti." << endl ;
+    cout << "Premi INVIO per tirare il dado e moltiplicare i punti ottenuti." << endl ;
     pause();
 
     int value;
     int valoredado;
 
     valoredado = Throw(1);
+
 
     cout << "Dado = " << valoredado << endl ;
     value = coeff_punti * valoredado ;

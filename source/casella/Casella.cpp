@@ -27,14 +27,14 @@ Casella* Casella::getSinistra() {
 }
 
 
-void Casella::applicaEffetto(Giocatore* player) {
+bool Casella::applicaEffetto(Giocatore* player) {
+return false;
+}
+
+void Casella::stampaMsg() {
 //
 }
 
-/*void Casella::stampaMsg() {
-//
-}
-*/
 
 char* Casella::getMessage() {
     char* msg = (char*)malloc(sizeof(char)*100);

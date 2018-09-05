@@ -97,6 +97,8 @@ void CartaIndovina::applicaEffetto(Giocatore* player) {
 
         valore_lancio_dado = Throw() ;
 
+        cout << "E' uscito un " << valore_lancio_dado << endl;
+
         if (valore_lancio_dado == valore_previsto) {
             cout << "COMPLIMENTI , hai vinto " << punti_scommessi * coeffIndovina
                  << " punti !" << endl ;

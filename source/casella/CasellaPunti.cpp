@@ -10,28 +10,29 @@ CasellaPunti::CasellaPunti(Casella* Destra, Casella* Sinistra) : Casella (Destra
     this->punticasella = ((rand()%5) + 1)*20;
 }
 
-void CasellaPunti::applicaEffetto(Giocatore* player) {
+bool CasellaPunti::applicaEffetto(Giocatore* player) {
 
-//    this->stampaMsg();
+    this->stampaMsg();
 
     if (player->hasDoublePoints())
         cout << "Hai il Bonus 'DOPPI PUNTI' attivo, il tuo guadagno per questo turno e' raddoppiato!" << endl;
 
     player->add_points(this->punticasella);
 
+    return false;
 
 }
 
-/*
+
 void CasellaPunti::stampaMsg() {
 
     cout << "Ti trovi sulla casella 'Guadagna Punti'. " <<endl;
     cout << "Questa casella ti fa ottenere " << this->punticasella << " punti." << endl;
 
-    system("pause");
+    pause();
 
 }
-*/
+
 
 char* CasellaPunti::getMessage() {
 

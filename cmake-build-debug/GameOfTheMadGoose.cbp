@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp">
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/GOP.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.cpp">
@@ -139,6 +139,12 @@
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp">

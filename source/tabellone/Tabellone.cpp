@@ -44,10 +44,11 @@ Casella* Tabellone::generaTabellone (int n_caselle) {
             first = new CasellaFermo();
             break;
 
-        //case 1:
-          //  first = new CasellaPesca();
-
         case 1:
+            first = new CasellaPesca();
+            break;
+
+        case 2:
             first = new CasellaPunti();
             break;
 
@@ -77,14 +78,16 @@ Casella* Tabellone::generaTabellone (int n_caselle) {
                 break;
 
             case 1:
+                tmp = new CasellaPesca(NULL,prev);
+                break;
+
+            case 2:
                 tmp = new CasellaPunti(NULL,prev);
                 break;
 
-           // case 2:
-           //   tmp = new CasellaPesca(NULL,prev);
-
             default:
                 tmp = new Casella(NULL,prev);
+                break;
         }
 
         prev->setDestra(tmp);

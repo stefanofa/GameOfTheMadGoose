@@ -123,32 +123,32 @@ GameOfTheMadGoose/fast:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/build
 .PHONY : GameOfTheMadGoose/fast
 
-main.o: main.cpp.o
+GOP.o: GOP.cpp.o
 
-.PHONY : main.o
+.PHONY : GOP.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o
-.PHONY : main.cpp.o
+GOP.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.o
+.PHONY : GOP.cpp.o
 
-main.i: main.cpp.i
+GOP.i: GOP.cpp.i
 
-.PHONY : main.i
+.PHONY : GOP.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/main.cpp.i
-.PHONY : main.cpp.i
+GOP.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.i
+.PHONY : GOP.cpp.i
 
-main.s: main.cpp.s
+GOP.s: GOP.cpp.s
 
-.PHONY : main.s
+.PHONY : GOP.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/main.cpp.s
-.PHONY : main.cpp.s
+GOP.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.s
+.PHONY : GOP.cpp.s
 
 source/carta/Carta.o: source/carta/Carta.cpp.o
 
@@ -393,6 +393,33 @@ source/casella/CasellaFermo.cpp.s:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.s
 .PHONY : source/casella/CasellaFermo.cpp.s
 
+source/casella/CasellaPesca.o: source/casella/CasellaPesca.cpp.o
+
+.PHONY : source/casella/CasellaPesca.o
+
+# target to build an object file
+source/casella/CasellaPesca.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPesca.cpp.o
+.PHONY : source/casella/CasellaPesca.cpp.o
+
+source/casella/CasellaPesca.i: source/casella/CasellaPesca.cpp.i
+
+.PHONY : source/casella/CasellaPesca.i
+
+# target to preprocess a source file
+source/casella/CasellaPesca.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPesca.cpp.i
+.PHONY : source/casella/CasellaPesca.cpp.i
+
+source/casella/CasellaPesca.s: source/casella/CasellaPesca.cpp.s
+
+.PHONY : source/casella/CasellaPesca.s
+
+# target to generate assembly for a file
+source/casella/CasellaPesca.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPesca.cpp.s
+.PHONY : source/casella/CasellaPesca.cpp.s
+
 source/casella/CasellaPunti.o: source/casella/CasellaPunti.cpp.o
 
 .PHONY : source/casella/CasellaPunti.o
@@ -564,9 +591,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GameOfTheMadGoose"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... GOP.o"
+	@echo "... GOP.i"
+	@echo "... GOP.s"
 	@echo "... source/carta/Carta.o"
 	@echo "... source/carta/Carta.i"
 	@echo "... source/carta/Carta.s"
@@ -594,6 +621,9 @@ help:
 	@echo "... source/casella/CasellaFermo.o"
 	@echo "... source/casella/CasellaFermo.i"
 	@echo "... source/casella/CasellaFermo.s"
+	@echo "... source/casella/CasellaPesca.o"
+	@echo "... source/casella/CasellaPesca.i"
+	@echo "... source/casella/CasellaPesca.s"
 	@echo "... source/casella/CasellaPunti.o"
 	@echo "... source/casella/CasellaPunti.i"
 	@echo "... source/casella/CasellaPunti.s"

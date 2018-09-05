@@ -20,8 +20,8 @@ public:
 
     CasellaPunti(Casella* Destra = NULL, Casella* Sinistra = NULL);
 
-    void applicaEffetto(Giocatore* player) override;
-    //void stampaMsg() override;
+    bool applicaEffetto(Giocatore* player) override;
+    void stampaMsg() override;
     char* getMessage() override;
 
 

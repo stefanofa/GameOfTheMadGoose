@@ -31,8 +31,8 @@ public:
     Casella* getDestra();
     Casella* getSinistra();
 
-    virtual void applicaEffetto(Giocatore* player);
-  //  virtual void stampaMsg();
+    virtual bool applicaEffetto(Giocatore* player);
+    virtual void stampaMsg();
     virtual char* getMessage();
 
     virtual int tipocasella();

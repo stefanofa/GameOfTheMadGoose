@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/main.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/GOP.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaAbbassa.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaAbbassa.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaGOP.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaGOP.cpp.o"
@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaRaddoppia.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaRaddoppia.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPesca.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o"

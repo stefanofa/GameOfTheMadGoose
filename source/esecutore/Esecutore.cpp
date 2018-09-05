@@ -21,6 +21,60 @@ Esecutore::Esecutore() {
 
 }
 
+void Esecutore::play () {
+
+    Carta* cartatmp;
+
+    Giocatore* tmpPrimo = this->giocatoreAttuale;
+    Casella* tmpCasella = this->giocatoreAttuale->getCasella();
+    int val_dado;
+
+    while (!end) {
+
+        //se il giocatore non deve stare fermo, gioca il suo turno
+        if (!(this->giocatoreAttuale->isFermo())) {
+            //azioni del turno giocatore
+            cout << "Lancio del dado.";
+            pause();
+            val_dado = Throw();
+            cout << " -> Hai ottenuto " << val_dado << endl ;
+            muoviGiocatore(val_dado);
+            tmpCasella = this->giocatoreAttuale->getCasella();
+            if(tmpCasella->applicaEffetto(this->giocatoreAttuale)) {
+                cartatmp = mazzo.draw_Next_Card();
+                cartatmp -> applicaEffetto(this->giocatoreAttuale);
+            }
+        }
+        else cout << this->giocatoreAttuale->getName()<<  ", per questo turno non puoi lanciare il dado!!" << endl << endl ;
+
+        //se il giocatore ha dei bonus/malus , decrementa il loro valore alla fine del turno
+        if(this->giocatoreAttuale->isFermo()) this->giocatoreAttuale->decTurniFermo();
+        else {
+            if(this->giocatoreAttuale->isImmune()) this->giocatoreAttuale->decTurniImmunity();
+            if(this->giocatoreAttuale->hasDoublePoints()) this->giocatoreAttuale->decTurniDoublePoints();
+        }
+
+
+
+        //se il giocatore ha vinto nel turno attuale
+        if(this->giocatoreAttuale->twoOfThree() ||
+           this->giocatoreAttuale->getPoints()>=pointsToWin)
+        {
+            end = true;
+            this->Winner = this->giocatoreAttuale;
+        }
+            //se il giocatore non ha vinto nel turno
+            //passa il turno al giocatore successivo
+        else this->giocatoreAttuale = this->giocatoreAttuale->getNextPlayer();
+
+        //stampaClassifica();
+
+    }
+
+    stampaVincitore(this->Winner);
+
+}
+
 void Esecutore::stampaGiocatori() {
 
     Casella* tmp;
@@ -116,6 +170,38 @@ Giocatore* Esecutore::createListaGiocatori () {
 
 
 }
+
+void Esecutore::muoviGiocatore (int passi) {
+
+    Casella* tmp = this->giocatoreAttuale->getCasella();
+
+    if (this->giocatoreAttuale->getDir() == destra) {
+        for (int i = 0; i < passi ; i++)
+            tmp = tmp->getDestra();
+    } else {
+        for (int i = 0; i < passi ; i++)
+            tmp = tmp->getSinistra();
+    }
+
+    this->giocatoreAttuale->setCasella(tmp);
+
+
+}
+
+void Esecutore::stampaVincitore (Giocatore* player) {
+
+    cout << "Complimenti " << player->getName() << "!" << endl;
+
+    if (player->twoOfThree()) {
+        cout << "Hai trovato 2 carte GOP, sei il vincitore della partita!" << endl;
+    }
+    else cout << "Hai guadagnato " << player->getPoints() << " punti, sei il vincitore della partita!" << endl;
+
+    cout << endl ;
+
+    //stampaClassifica();
+}
+
 
 Esecutore::~Esecutore() {
     // TODO Auto-generated destructor stub

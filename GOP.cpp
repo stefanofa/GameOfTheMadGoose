@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
 
-    Esecutore gioco = Esecutore();
+    Esecutore game = Esecutore();
 
-    gioco.stampaGiocatori();
+    game.play();
 
 
 

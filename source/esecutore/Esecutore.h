@@ -53,6 +53,12 @@ public:
     int decidiDimMazzo();
     Giocatore* createListaGiocatori ();
 
+    void muoviGiocatore(int passi);
+
+    void play();
+
+    void stampaVincitore(Giocatore *player);
+
     virtual ~Esecutore();
 };
 

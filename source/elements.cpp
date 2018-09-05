@@ -16,6 +16,8 @@ using namespace std;
 
 void cls() {
     //for (int i = 0; i < 10; ++i) printf( "\n\n\n\n\n\n\n\n\n\n" );
+
+    cout<<"\n\n\n\n\n\n";
     for (int i = 0; i < 150; ++i) {
         cout << "/";
     }
