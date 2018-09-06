@@ -164,9 +164,22 @@ void Giocatore::decTurniFermo () {
 void Giocatore::add_points(int value) {
     if (!(this->isImmune() && value < 0))
     {
-        this->punti += (this->hasDoublePoints()  && value>0) ? value*2 : value ;
+        if (value < 0 ) this->punti += value ;
+        else this->punti += (this->hasDoublePoints()  && value>0) ? value*2 : value ;
+
         if (this->punti < 0) this->punti = 0;
     }
+}
+
+void Giocatore::add_points_abbassa(int value) {
+    if (!(this->isImmune() && value < 0))
+    {
+        if (value < 0 ) this->punti += value ;
+        else this->punti += (this->hasDoublePoints()  && value>0) ? value*2 : value ;
+
+        if (this->punti < 0) this->punti = 0;
+    }
+    else cout << "Il giocatore " << this->getName() << " e' IMMUNE , non puo' perdere punti questo turno." << endl ;
 }
 
 /*void Giocatore::Player_add_points (int value) {

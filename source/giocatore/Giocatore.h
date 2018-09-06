@@ -77,6 +77,8 @@ public:
 
 
     void add_points (int value);
+
+    void add_points_abbassa (int value);
     //void Player_add_points (int value) ;
 
     bool twoOfThree ();

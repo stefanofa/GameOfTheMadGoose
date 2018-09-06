@@ -21,7 +21,7 @@ void CartaAbbassa::applicaEffetto(Giocatore* player) {
     cout << "I tuoi avversari perderanno "<< -1 * coeffabbassa << " punti!" << endl ;
 
     while (tmp != player) {
-        this->addPoints(tmp,coeffabbassa);
+        tmp->add_points_abbassa(coeffabbassa);
         tmp = tmp->getNextPlayer();
     }
 

@@ -12,46 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c44f320e-5cb1-45cf-923e-402cc11ce00b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/casella/CasellaPesca.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/casella/CasellaPesca.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GOP.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/Carta.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaIndovina.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/carta/CartaIndovina.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/Casella.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GameOfTheMadGoose" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GameOfTheMadGoose" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GameOfTheMadGoose.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GameOfTheMadGoose.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GOP.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/carta/Carta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/carta/Carta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/carta/CartaIndovina.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/carta/CartaIndovina.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/casella/Casella.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/Casella.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/casella/Casella.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/Casella.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/casella/CasellaFermo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaFermo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/casella/CasellaFermo.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaFermo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/casella/CasellaPunti.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaPunti.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/casella/CasellaPunti.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/casella/CasellaPunti.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/esecutore/Esecutore.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/esecutore/Esecutore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/tabellone/Tabellone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/tabellone/Tabellone.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/tabellone/Tabellone.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/tabellone/Tabellone.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/carta/CartaAbbassa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/carta/CartaAbbassa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/giocatore/Giocatore.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/giocatore/Giocatore.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,28 +47,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3127" />
-          <entry key="h" value="985" />
+          <entry key="cpp" value="3303" />
+          <entry key="h" value="995" />
           <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="4112" />
+          <entry key="ObjectiveC" value="4298" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="52" />
-          <entry key="h" value="38" />
+          <entry key="cpp" value="53" />
+          <entry key="h" value="39" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="90" />
+          <entry key="ObjectiveC" value="92" />
         </counts>
       </usages-collector>
     </session>
@@ -116,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOP.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -163,19 +131,7 @@
         <entry file="file://$PROJECT_DIR$/source/carta/CartaImmunita.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/carta/Carta.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#113#132#0" expanded="true" />
-              </folding>
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -183,20 +139,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/carta/Carta.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="45">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/elements.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/carta/CartaAbbassa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="e#45#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -204,8 +157,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="188" column="4" lean-forward="true" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
+            <state relative-caret-position="479">
+              <caret line="181" column="116" selection-start-line="181" selection-start-column="116" selection-end-line="181" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+              <folding>
+                <element signature="e#139#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,8 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/giocatore/Giocatore.h" />
-        <option value="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" />
         <option value="$PROJECT_DIR$/source/dado/Dado.h" />
         <option value="$PROJECT_DIR$/source/dado/Dado.cpp" />
         <option value="$PROJECT_DIR$/source/elements.h" />
@@ -247,7 +210,6 @@
         <option value="$PROJECT_DIR$/source/mazzo/Mazzo.h" />
         <option value="$PROJECT_DIR$/source/mazzo/Mazzo.cpp" />
         <option value="$PROJECT_DIR$/source/carta/CartaRaddoppia.cpp" />
-        <option value="$PROJECT_DIR$/source/carta/CartaAbbassa.cpp" />
         <option value="$PROJECT_DIR$/source/carta/CartaIndovina.cpp" />
         <option value="$PROJECT_DIR$/source/casella/CasellaPesca.h" />
         <option value="$PROJECT_DIR$/source/casella/CasellaPesca.cpp" />
@@ -264,6 +226,10 @@
         <option value="$PROJECT_DIR$/source/esecutore/Esecutore.cpp" />
         <option value="$PROJECT_DIR$/source/esecutore/Esecutore.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/GOP.cpp" />
+        <option value="$PROJECT_DIR$/source/giocatore/Giocatore.h" />
+        <option value="$PROJECT_DIR$/source/giocatore/Giocatore.cpp" />
+        <option value="$PROJECT_DIR$/source/carta/CartaAbbassa.cpp" />
       </list>
     </option>
   </component>
@@ -397,7 +363,7 @@
       <workItem from="1535899385237" duration="1204000" />
       <workItem from="1535902050146" duration="4129000" />
       <workItem from="1535987055295" duration="4629000" />
-      <workItem from="1536141530214" duration="10100000" />
+      <workItem from="1536141530214" duration="11834000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1535127834485</created>
@@ -410,23 +376,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30904000" />
+    <option name="totallyTimeSpent" value="32638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23962368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24432433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24432433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32864866" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -487,13 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="479" selection-start-line="5" selection-start-column="479" selection-end-line="5" selection-end-column="479" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -644,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/carta/CartaAbbassa.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/carta/Carta.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -658,13 +611,6 @@
           <folding>
             <element signature="e#113#132#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/carta/Carta.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -681,14 +627,7 @@
     <entry file="file://$PROJECT_DIR$/source/carta/CartaImmunita.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="188" column="4" lean-forward="true" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -726,11 +665,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GOP.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="e#139#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/giocatore/Giocatore.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="181" column="116" selection-start-line="181" selection-start-column="116" selection-end-line="181" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/carta/Carta.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/carta/CartaAbbassa.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
