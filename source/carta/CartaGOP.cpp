@@ -18,8 +18,11 @@ void CartaGOP::applicaEffetto (Giocatore* player) {
     player->foundGOP();
 
     cout << "Hai ottenuto una delle 3 carte GOP!" << endl ;
-    cout << "Se possiedi due su tre carte GOP vinci immediatamente la partita!" ;
-    cout << "Al momento possiedi " << player->getnGOPCards() << " carte GOP!" ;
+    cout << "Se possiedi due su tre carte GOP vinci immediatamente la partita!" << endl << endl;
+    cout << "Al momento possiedi " << player->getnGOPCards() ;
+
+    if (player->getnGOPCards() == 1 )   cout << " carta GOP!" ;
+                                 else   cout << " carte GOP!" ;
 
     pause();
 

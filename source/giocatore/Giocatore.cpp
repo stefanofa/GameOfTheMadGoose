@@ -87,7 +87,7 @@ void Giocatore::setImmunity (int num_turni) {
     }
     else {
         this->immune.attivo = true;
-        this->immune.num_turni = num_turni;
+        this->immune.num_turni = num_turni +1;
     }
 
 }
@@ -99,7 +99,7 @@ void Giocatore::setDoublePoints(int num_turni) {
     }
     else {
         this->doppiPunti.attivo = true;
-        this->doppiPunti.num_turni = num_turni;
+        this->doppiPunti.num_turni = num_turni +1;
     }
 
 }
@@ -111,7 +111,7 @@ void Giocatore::setFermo(int num_turni) {
     }
     else {
         this->fermo.attivo = true;
-        this->fermo.num_turni = num_turni;
+        this->fermo.num_turni = num_turni +1;
     }
 
 }

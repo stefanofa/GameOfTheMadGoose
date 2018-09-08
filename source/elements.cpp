@@ -32,8 +32,10 @@ void clearCin() {
 // Premere invio per continuare
 void pause() {
     clearCin();
-    cin.putback('\n');
+   // cin.putback('\n');
     cin.get();
+
+
 }
 
 int Throw(int n) {

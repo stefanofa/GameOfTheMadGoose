@@ -113,6 +113,7 @@ void CartaIndovina::applicaEffetto(Giocatore* player) {
             player->add_points(punti_scommessi * -1) ;
         }
 
+        pause();
 
     }
 
