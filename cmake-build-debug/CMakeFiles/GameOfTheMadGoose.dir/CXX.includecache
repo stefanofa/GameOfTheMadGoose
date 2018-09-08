@@ -6,42 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
-iostream
--
-cstdlib
--
-../giocatore/Giocatore.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
-../elements.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaGOP.cpp
-CartaGOP.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaGOP.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaGOP.h
-Carta.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.cpp
-CartaIndovina.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.h
-Carta.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
-iostream
--
-cstring
--
-../elements.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
-../giocatore/Giocatore.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
-
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp
 elements.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
@@ -57,10 +21,4 @@ limits
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
 stdlib.h
 -
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
-cstring
--
-../casella/Casella.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
 
