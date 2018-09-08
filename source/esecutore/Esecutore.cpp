@@ -37,7 +37,7 @@ void Esecutore::play () {
         clear_screen();
         stampaGiocatori();
 
-        cout << "E' il turno di " << this->giocatoreAttuale->getName() << "!" << endl ;
+        cout << "E' il turno di " << this->giocatoreAttuale->getName() << "!" << endl << endl;
 
         //se il giocatore non deve stare fermo, gioca il suo turno
         if (!(this->giocatoreAttuale->isFermo())) {
@@ -45,7 +45,7 @@ void Esecutore::play () {
             cout << "Premi invio per lanciare il dado.";
             pause();
             val_dado = Throw();
-            cout << " -> Hai ottenuto " << val_dado << endl ;
+            cout << " -> Hai ottenuto " << val_dado << endl << endl;
             muoviGiocatore(val_dado);
             tmpCasella = this->giocatoreAttuale->getCasella();
             if(tmpCasella->applicaEffetto(this->giocatoreAttuale)) {
@@ -90,18 +90,18 @@ void Esecutore::stampaGiocatori() {
     Giocatore* tmp = this->giocatoreAttuale;
 
 
-    cout << "*******ELENCO GIOCATORI*******" << endl;
-    cout << "\t\t\t\t\t\t\t *" << endl ;
+    cout << "*******ELENCO GIOCATORI*******" << endl << endl;
 
-    cout << "Nome \t\t\tPunti\t\t *" << endl ;
-    cout << "\t\t\t\t\t\t\t *" << endl ;
+
+    cout << "Nome \t\t\tPunti\t\t" << endl << endl ;
+
     for (int i=0; i<nGiocatori; i++) {
 
         cout<<tmp->getName();
         stampaTab(numberTab(strlen(tmp->getName()),4));  //stampa numero di tab in base alla lunghezza del nome del giocatore
-        cout<< tmp->getPoints();
+        cout<< tmp->getPoints() << endl;
 
-        cout << "\t\t\t *" << endl ;
+
 
 
 
@@ -110,7 +110,7 @@ void Esecutore::stampaGiocatori() {
 
     }
 
-    cout << "\t\t\t\t\t\t\t *" << endl ;
+    cout << endl ;
     cout <<"******************************";
 
     cout << endl << endl ;
