@@ -23,6 +23,9 @@ Esecutore::Esecutore() {
 
 void Esecutore::play () {
 
+    stampaGiocatori();
+    pause();
+
     Carta* cartatmp;
 
     Giocatore* tmpPrimo = this->giocatoreAttuale;
@@ -77,34 +80,35 @@ void Esecutore::play () {
 
 void Esecutore::stampaGiocatori() {
 
-    Casella* tmp;
+    clear_screen();
 
+    Giocatore* tmp = this->giocatoreAttuale;
+
+
+    cout << "*******ELENCO GIOCATORI*******" << endl;
+    cout << "\t\t\t\t\t\t\t *" << endl ;
+
+    cout << "Nome \t\t\tPunti\t\t *" << endl ;
+    cout << "\t\t\t\t\t\t\t *" << endl ;
     for (int i=0; i<nGiocatori; i++) {
 
-        cout<<this->giocatoreAttuale->getName() << endl;
+        cout<<tmp->getName();
+        stampaTab(numberTab(strlen(tmp->getName()),4));  //stampa numero di tab in base alla lunghezza del nome del giocatore
+        cout<< tmp->getPoints();
 
-     //   cout<<"TIPOCASELLA : " << this->giocatoreAttuale->getCasella()->tipocasella() << endl;
-     //   cout <<this->giocatoreAttuale->getCasella()->getMessage();
+        cout << "\t\t\t *" << endl ;
 
-        pause();
 
-        cout << endl << "tipocasella : " << giocatoreAttuale->getCasella()->tipocasella() << endl;
 
-        cout <<"PUNTI PRIMA : " << this->giocatoreAttuale->getPoints() << endl;
 
-        tmp = this->giocatoreAttuale->getCasella();
-        tmp->applicaEffetto(this->giocatoreAttuale);
-
-        cout <<"PUNTI DOPO : " << this->giocatoreAttuale->getPoints() << endl;
-
-        this->giocatoreAttuale = this->giocatoreAttuale->getNextPlayer();
+        tmp = tmp->getNextPlayer();
 
     }
 
-    Carta* cartaesempio ;
-    cartaesempio = mazzo.draw_Next_Card();
+    cout << "\t\t\t\t\t\t\t *" << endl ;
+    cout <<"******************************";
 
-    cartaesempio->applicaEffetto(this->giocatoreAttuale);
+    cout << endl << endl ;
 
 
 }

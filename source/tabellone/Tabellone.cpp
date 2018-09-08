@@ -52,6 +52,10 @@ Casella* Tabellone::generaTabellone (int n_caselle) {
             first = new CasellaPunti();
             break;
 
+        case 3:
+            first = new CasellaSwitch();
+            break;
+
         default:
             first = new Casella();
             break;
@@ -83,6 +87,10 @@ Casella* Tabellone::generaTabellone (int n_caselle) {
 
             case 2:
                 tmp = new CasellaPunti(NULL,prev);
+                break;
+
+            case 3:
+                tmp = new CasellaSwitch(NULL,prev);
                 break;
 
             default:

@@ -447,6 +447,33 @@ source/casella/CasellaPunti.cpp.s:
 	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.s
 .PHONY : source/casella/CasellaPunti.cpp.s
 
+source/casella/CasellaSwitch.o: source/casella/CasellaSwitch.cpp.o
+
+.PHONY : source/casella/CasellaSwitch.o
+
+# target to build an object file
+source/casella/CasellaSwitch.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaSwitch.cpp.o
+.PHONY : source/casella/CasellaSwitch.cpp.o
+
+source/casella/CasellaSwitch.i: source/casella/CasellaSwitch.cpp.i
+
+.PHONY : source/casella/CasellaSwitch.i
+
+# target to preprocess a source file
+source/casella/CasellaSwitch.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaSwitch.cpp.i
+.PHONY : source/casella/CasellaSwitch.cpp.i
+
+source/casella/CasellaSwitch.s: source/casella/CasellaSwitch.cpp.s
+
+.PHONY : source/casella/CasellaSwitch.s
+
+# target to generate assembly for a file
+source/casella/CasellaSwitch.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfTheMadGoose.dir/build.make CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaSwitch.cpp.s
+.PHONY : source/casella/CasellaSwitch.cpp.s
+
 source/elements.o: source/elements.cpp.o
 
 .PHONY : source/elements.o
@@ -627,6 +654,9 @@ help:
 	@echo "... source/casella/CasellaPunti.o"
 	@echo "... source/casella/CasellaPunti.i"
 	@echo "... source/casella/CasellaPunti.s"
+	@echo "... source/casella/CasellaSwitch.o"
+	@echo "... source/casella/CasellaSwitch.i"
+	@echo "... source/casella/CasellaSwitch.s"
 	@echo "... source/elements.o"
 	@echo "... source/elements.i"
 	@echo "... source/elements.s"

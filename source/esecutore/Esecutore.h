@@ -48,14 +48,17 @@ public:
     Esecutore();
 
 
-    void stampaGiocatori();
-
     int decidiDimMazzo();
     Giocatore* createListaGiocatori ();
 
     void muoviGiocatore(int passi);
 
     void play();
+
+    //void startMatch ();
+
+    void stampaGiocatori();
+
 
     void stampaVincitore(Giocatore *player);
 

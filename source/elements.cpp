@@ -17,7 +17,7 @@ using namespace std;
 void cls() {
     //for (int i = 0; i < 10; ++i) printf( "\n\n\n\n\n\n\n\n\n\n" );
 
-    cout<<"\n\n\n\n\n\n";
+    cout<<"\n";
     for (int i = 0; i < 150; ++i) {
         cout << "/";
     }
@@ -46,4 +46,37 @@ int Throw(int n) {
 
     return value;
 
+}
+
+int numberTab (int lenghtWord , int tabTotali) {
+
+    int tmp=4;
+
+    int nTab = tabTotali;
+
+    if (lenghtWord >= 4) {
+        nTab--;
+        tmp+=4;
+        while (tmp <= lenghtWord) {
+            nTab--;
+            tmp+=4;
+        }
+    }
+
+    return nTab;
+
+}
+
+void stampaTab (int n) {
+    for (int i=0 ; i < n ; i++) cout << "\t";
+}
+
+void clear_screen()
+{
+#ifdef _WIN32
+    system("cls");
+#else
+    // Assume POSIX
+    system ("clear");
+#endif
 }

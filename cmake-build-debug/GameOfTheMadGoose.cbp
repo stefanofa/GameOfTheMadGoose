@@ -153,6 +153,12 @@
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>

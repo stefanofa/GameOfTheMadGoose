@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/GOP.cpp
-iostream
--
-source/esecutore/Esecutore.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
-
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
 iostream
 -
@@ -68,9 +62,17 @@ Casella.h
 Casella.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
 
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h
+Casella.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
+
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
 stdlib.h
 -
+
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp
+Esecutore.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
 iostream
@@ -125,6 +127,8 @@ time.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
 ../casella/CasellaPesca.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.h
+../casella/CasellaSwitch.h
+/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h
 stdlib.h
 -
 time.h

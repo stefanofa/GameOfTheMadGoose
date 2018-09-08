@@ -9,19 +9,21 @@
 #include "../casella/CasellaFermo.h"
 #include "../casella/CasellaPunti.h"
 #include "../casella/CasellaPesca.h"
+#include "../casella/CasellaSwitch.h"
 #include <stdlib.h>
 #include <time.h>
 
-#define n_tipicaselle 3
+#define n_tipicaselle 4
 
-enum TipiCaselle { Fermo = 0 , Pesca , Punti };
-const int prob_casella[n_tipicaselle] = { 10, 65 , 100 };
+enum TipiCaselle { Fermo = 0 , Pesca , Punti , Switch };
+const int prob_casella[n_tipicaselle] = { 10, 55 , 85 , 100 };
 /*
  * Probabilità generazione caselle da inserire nel tabellone in base al tipo :
  *
- * -Fermo : 10%
- * -Pesca : 55%
- * -Punti : 35%
+ * -Fermo  : 10%
+ * -Pesca  : 45%
+ * -Punti  : 30%
+ * -Switch : 15%
  *
  */
 

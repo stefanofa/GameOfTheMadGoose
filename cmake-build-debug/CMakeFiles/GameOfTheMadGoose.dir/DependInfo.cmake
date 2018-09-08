@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaFermo.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPesca.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o"
+  "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaSwitch.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o"
   "/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.cpp" "/home/stefanofa/CLionProjects/GameOfTheMadGoose/cmake-build-debug/CMakeFiles/GameOfTheMadGoose.dir/source/giocatore/Giocatore.cpp.o"

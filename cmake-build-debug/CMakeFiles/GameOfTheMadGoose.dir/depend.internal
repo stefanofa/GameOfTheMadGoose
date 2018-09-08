@@ -14,6 +14,7 @@ CMakeFiles/GameOfTheMadGoose.dir/GOP.cpp.o
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
@@ -90,6 +91,12 @@ CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaPunti.cpp.o
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
+CMakeFiles/GameOfTheMadGoose.dir/source/casella/CasellaSwitch.cpp.o
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.cpp
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
 CMakeFiles/GameOfTheMadGoose.dir/source/elements.cpp.o
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.cpp
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
@@ -105,6 +112,7 @@ CMakeFiles/GameOfTheMadGoose.dir/source/esecutore/Esecutore.cpp.o
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.cpp
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/esecutore/Esecutore.h
@@ -134,6 +142,7 @@ CMakeFiles/GameOfTheMadGoose.dir/source/tabellone/Tabellone.cpp.o
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPesca.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaPunti.h
+ /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaSwitch.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
  /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/tabellone/Tabellone.cpp
