@@ -11,7 +11,7 @@ CartaGOP::CartaGOP() {
 
 void CartaGOP::applicaEffetto (Giocatore* player) {
 
-    cls();
+    clear_screen();
     cout << "Giocatore : " << player->getName() << endl << endl ;
 
     //effetto specifico

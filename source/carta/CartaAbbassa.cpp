@@ -11,7 +11,7 @@ CartaAbbassa::CartaAbbassa() {
 
 void CartaAbbassa::applicaEffetto(Giocatore* player) {
 
-    cls();
+    clear_screen();
 
     cout << "Giocatore : " << player->getName() << endl << endl ;
 

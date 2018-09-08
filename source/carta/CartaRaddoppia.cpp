@@ -12,7 +12,7 @@ CartaRaddoppia::CartaRaddoppia() {
 void CartaRaddoppia::applicaEffetto (Giocatore* player) {
 
 
-    cls();
+    clear_screen();
 
     cout << "Giocatore : " << player->getName() << endl << endl ;
 

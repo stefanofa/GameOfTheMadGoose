@@ -11,7 +11,7 @@ CartaImmunita::CartaImmunita() {
 
 void CartaImmunita::applicaEffetto (Giocatore* player) {
 
-    cls();
+    clear_screen();
 
     cout << "Giocatore : " << player->getName() << endl << endl ;
 

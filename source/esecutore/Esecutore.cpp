@@ -34,10 +34,15 @@ void Esecutore::play () {
 
     while (!end) {
 
+        clear_screen();
+        stampaGiocatori();
+
+        cout << "E' il turno di " << this->giocatoreAttuale->getName() << "!" << endl ;
+
         //se il giocatore non deve stare fermo, gioca il suo turno
         if (!(this->giocatoreAttuale->isFermo())) {
             //azioni del turno giocatore
-            cout << "Lancio del dado.";
+            cout << "Premi invio per lanciare il dado.";
             pause();
             val_dado = Throw();
             cout << " -> Hai ottenuto " << val_dado << endl ;
@@ -127,7 +132,7 @@ Giocatore* Esecutore::createListaGiocatori () {
     do {
 
         if (!primo) {
-            cls();
+            clear_screen();
             cout << "ERRORE - HAI INSERITO UN VALORE NON CONSENTITO!" << endl;
         }
 
@@ -142,7 +147,7 @@ Giocatore* Esecutore::createListaGiocatori () {
 
     int i = 1;
 
-    cls();
+    clear_screen();
 
     cout << "Inserisci il nome del " << i << "° giocatore." << endl ;
     cout << "->";
@@ -155,7 +160,7 @@ Giocatore* Esecutore::createListaGiocatori () {
 
     for (;i <= this->nGiocatori; i++) {
 
-        cls();
+        clear_screen();
 
         cout << "Inserisci il nome del " << i << "° giocatore." << endl ;
         cout << "->";

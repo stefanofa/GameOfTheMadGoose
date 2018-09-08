@@ -79,4 +79,7 @@ void clear_screen()
     // Assume POSIX
     system ("clear");
 #endif
+
+    cout << "+++++++ GAME OF THE MAD GOOSE +++++++" << endl << endl ;
+
 }
