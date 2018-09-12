@@ -26,7 +26,7 @@ void Esecutore::decidiDimMazzo() {
 
     bool primo = true;
 
-
+    clear_screen();
 
     do {
 
@@ -79,7 +79,6 @@ void Esecutore::initMatch() {
 
     clear_screen();
 
-    cout << endl << endl << endl ;
 
     cout << "Benvenuti nel gioco dell'oca pazza, dove tutto puo' succedere!" ;
 
@@ -96,9 +95,12 @@ void Esecutore::initMatch() {
 
     clear_screen();
 
+    pause ();
+
     cout << "Perfetto, siamo quasi pronti! " << endl << endl ;
     cout << this->giocatoreAttuale->getName() << " premi INVIO per iniziare!!!";
 
+    pause();
 
 }
 

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.cpp
-Carta.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
-
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
 iostream
 -
@@ -28,33 +24,17 @@ Carta.h
 Carta.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
 
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaImmunita.cpp
-CartaImmunita.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaImmunita.h
-
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaImmunita.h
 Carta.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.cpp
-CartaIndovina.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.h
 
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaIndovina.h
 Carta.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
 
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaInverti.cpp
-CartaInverti.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaInverti.h
-
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaInverti.h
 Carta.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/Carta.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaRaddoppia.cpp
-CartaRaddoppia.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaRaddoppia.h
 
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/carta/CartaRaddoppia.h
 Carta.h
@@ -69,10 +49,6 @@ cstring
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/elements.h
 ../giocatore/Giocatore.h
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/giocatore/Giocatore.h
-
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp
-CasellaFermo.h
-/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
 
 /home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.h
 Casella.h
