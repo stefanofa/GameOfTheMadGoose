@@ -14,15 +14,7 @@ using namespace std;
 
 
 
-void cls() {
-    //for (int i = 0; i < 10; ++i) printf( "\n\n\n\n\n\n\n\n\n\n" );
 
-    cout<<"\n";
-    for (int i = 0; i < 150; ++i) {
-        cout << "/";
-    }
-    cout << endl;
-}
 
 void clearCin() {
     cin.clear();
@@ -31,9 +23,14 @@ void clearCin() {
 
 // Premere invio per continuare
 void pause() {
+
+#ifdef _WIN32
+    system("pause");
+#else
     clearCin();
-   // cin.putback('\n');
+    cin.putback('\n');
     cin.get();
+#endif
 
     
 
@@ -50,6 +47,10 @@ int Throw(int n) {
     return value;
 
 }
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//Funzioni ausiliarie per stampare il numero corretto di tab nella stampa dei giocatori//
 
 int numberTab (int lenghtWord , int tabTotali) {
 

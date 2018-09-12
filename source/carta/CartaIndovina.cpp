@@ -25,7 +25,7 @@ void CartaIndovina::applicaEffetto(Giocatore* player) {
     char tentativo ;
     bool primo = true;
 
-    cout << "Hai trovato la carta INDOVINA." << endl ;
+    cout << "Hai pescato la carta INDOVINA." << endl ;
     cout << "Inserisci un numero da 1 a 6, scommetti i tuoi punti e lancia il dado: " << endl ;
     cout << "- se indovini ottieni il triplo dei punti scommessi" << endl ;
     cout << "- se sbagli perdi la quota scommessa." << endl ;

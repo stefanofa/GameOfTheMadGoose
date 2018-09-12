@@ -15,6 +15,7 @@ void CartaImmunita::applicaEffetto (Giocatore* player) {
 
     cout << "Giocatore : " << player->getName() << endl << endl ;
 
+    cout << "Hai pescato la carta Immunity!" << endl << endl;
     this->addPointsToPlayer(player);
 
     //effetto specifico

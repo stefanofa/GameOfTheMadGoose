@@ -24,6 +24,8 @@ void Carta::addPoints(Giocatore* player , int value) {
 
 void Carta::addPointsToPlayer(Giocatore* player) {
 
+    cout << "Questa carta, oltre al suo effetto, ti da diritto ad avere un po' di punti aggiuntivi!" << endl << endl ;
+
     cout << "Premi INVIO per tirare il dado e moltiplicare i punti ottenuti." << endl ;
     pause();
 

@@ -22,6 +22,8 @@ bool CasellaFermo::applicaEffetto (Giocatore* player) {
         cout << "Durante il prossimo turno non effettuerai la giocata.";
     }
 
+    pause();
+
     return false;
 
 }

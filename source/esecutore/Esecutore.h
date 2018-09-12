@@ -31,11 +31,9 @@ private:
     bool end = false;
     Giocatore* Winner = NULL;
 
-    //istanza di mazzo che permette di pescare una carta (ritorna una carta)
-    //utilizzando il metodo draw_Next_Card
-    //Mazzo mazzo ;
+    int dimTab = 50;
+    int dimMaz = 40;
 
-    //
     int nGiocatori = 0;
     Giocatore* giocatoreAttuale = NULL ;
 
@@ -48,14 +46,16 @@ public:
     Esecutore();
 
 
-    int decidiDimMazzo();
+    void decidiDimMazzo();
+    void decidiDimTabellone();
+
     Giocatore* createListaGiocatori ();
 
     void muoviGiocatore(int passi);
 
     void play();
 
-    //void startMatch ();
+    void initMatch ();
 
     void stampaGiocatori();
 

@@ -16,6 +16,8 @@ void CartaInverti::applicaEffetto (Giocatore* player) {
 
     cout << "Giocatore : " << player->getName() << endl << endl ;
 
+
+    cout << "Hai pescato la carta InvertiDirezione!" << endl << endl ;
     this->addPointsToPlayer(player);
 
     //effetto specifico

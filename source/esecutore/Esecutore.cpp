@@ -11,20 +11,99 @@ Esecutore::Esecutore() {
     this->end = false;
     this->Winner = NULL;
 
-    this->tabellone = Tabellone(57);
+    this->initMatch();
 
-    this->mazzo = Mazzo();
+    this->tabellone = Tabellone(this->dimTab);
+
+    this->mazzo = Mazzo(this->dimMaz);
+
+
+}
+
+
+
+void Esecutore::decidiDimMazzo() {
+
+    bool primo = true;
+
+
+
+    do {
+
+        if (!primo) {
+            clear_screen();
+            cout << "ERRORE - HAI INSERITO UN VALORE NON CONSENTITO!" << endl;
+        }
+
+        cout << "Ora dovete decidere la dimensione del mazzo di carte." << endl ;
+        cout << "Inserite un numero compreso tra 40 e 100 e premete invio per continuare." << endl;
+        cout << "->";
+        cin >> this->dimMaz;
+
+        if (primo) primo = false;
+
+    } while (this->dimMaz < 40 || this->dimMaz >100) ;
+
+
+}
+
+void Esecutore::decidiDimTabellone() {
+
+    bool primo = true;
+
+
+    clear_screen();
+
+
+    do {
+
+        if (!primo) {
+            clear_screen();
+            cout << "ERRORE - HAI INSERITO UN VALORE NON CONSENTITO!" << endl;
+        }
+
+        cout << "Ora dovete decidere la dimensione del tabellone." << endl ;
+        cout << "Inserite un numero compreso tra 50 e 100 e premete invio per continuare." << endl;
+        cout << "->";
+        cin >> this->dimTab;
+
+        if (primo) primo = false;
+
+    } while (this->dimTab < 50 || this->dimTab >100) ;
+
+
+}
+
+
+void Esecutore::initMatch() {
+
+    clear_screen();
+
+    cout << endl << endl << endl ;
+
+    cout << "Benvenuti nel gioco dell'oca pazza, dove tutto puo' succedere!" ;
+
+    cout << endl << endl ;
+
+    cout << "A breve i nostri folletti genereranno il tabellone ed il mazzo di carte," << endl <<
+            "abbiamo pero' bisogno che ci forniate alcune informazioni." << endl << endl;
 
     this->giocatoreAttuale = createListaGiocatori() ;
 
+    this->decidiDimMazzo();
+
+    this->decidiDimTabellone();
+
+    clear_screen();
+
+    cout << "Perfetto, siamo quasi pronti! " << endl << endl ;
+    cout << this->giocatoreAttuale->getName() << " premi INVIO per iniziare!!!";
 
 
 }
 
 void Esecutore::play () {
 
-    stampaGiocatori();
-    pause();
 
     Carta* cartatmp;
 

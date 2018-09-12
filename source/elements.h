@@ -8,7 +8,7 @@
 
 #include <stdlib.h>
 
-void cls();
+
 void clearCin();
 void pause();
 

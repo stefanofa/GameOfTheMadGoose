@@ -16,6 +16,7 @@ void CartaRaddoppia::applicaEffetto (Giocatore* player) {
 
     cout << "Giocatore : " << player->getName() << endl << endl ;
 
+    cout << "Hai pescato la carta DoublePoints!" << endl << endl ;
     this->addPointsToPlayer(player);
 
     //effetto specifico
