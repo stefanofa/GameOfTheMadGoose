@@ -24,7 +24,7 @@ void CartaImmunita::applicaEffetto (Giocatore* player) {
     player->setImmunity(num_turni);
 
     cout << "Hai ottenuto l'effetto IMMUNE" << endl ;
-    cout << "Nei prossimi " << player->howManyImmunityTurns() << " non potrai perdere punti!"
+    cout << "Nei prossimi " << player->howManyImmunityTurns() - 1 << " non potrai perdere punti!"
          << endl ;
 
     pause();

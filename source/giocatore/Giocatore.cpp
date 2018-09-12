@@ -80,6 +80,14 @@ Giocatore* Giocatore::getNextPlayer (){
     return this->nextPlayer;
 }
 
+/*
+ * per i metodi setImmunity,setDoublePoints,setFermo si ha un '+1'
+ * che è stato introdotto in quanto durante ogni fine del turno
+ * queste variabili vengono decrementate automaticamente se positive,
+ * il '+1' permette quindi di non considerare il turno nei quali si sono ottenuti tali effetti
+ * come turni nei quali sono stati utilizzati effettivamente questi effetti
+ */
+
 void Giocatore::setImmunity (int num_turni) {
 
     if (this->immune.attivo) {

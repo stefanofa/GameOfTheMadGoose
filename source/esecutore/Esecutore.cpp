@@ -109,7 +109,7 @@ void Esecutore::play () {
 
     Carta* cartatmp;
 
-    Giocatore* tmpPrimo = this->giocatoreAttuale;
+
     Casella* tmpCasella = this->giocatoreAttuale->getCasella();
     int val_dado;
 
@@ -134,7 +134,10 @@ void Esecutore::play () {
                 cartatmp -> applicaEffetto(this->giocatoreAttuale);
             }
         }
-        else cout << this->giocatoreAttuale->getName()<<  ", per questo turno non puoi lanciare il dado!!" << endl << endl ;
+        else  {
+            cout << this->giocatoreAttuale->getName()<<  "toccherebbe a te, ma per questo turno non puoi lanciare il dado!!" << endl << endl ;
+            pause();
+        }
 
         //se il giocatore ha dei bonus/malus , decrementa il loro valore alla fine del turno
         if(this->giocatoreAttuale->isFermo()) this->giocatoreAttuale->decTurniFermo();
@@ -156,7 +159,7 @@ void Esecutore::play () {
             //passa il turno al giocatore successivo
         else this->giocatoreAttuale = this->giocatoreAttuale->getNextPlayer();
 
-        //stampaClassifica();
+
 
     }
 
@@ -280,16 +283,20 @@ void Esecutore::muoviGiocatore (int passi) {
 
 void Esecutore::stampaVincitore (Giocatore* player) {
 
-    cout << "Complimenti " << player->getName() << "!" << endl;
+    clear_screen();
+
+    cout << "Complimenti " << player->getName() << "!" << endl << endl;
 
     if (player->twoOfThree()) {
         cout << "Hai trovato 2 carte GOP, sei il vincitore della partita!" << endl;
     }
     else cout << "Hai guadagnato " << player->getPoints() << " punti, sei il vincitore della partita!" << endl;
 
-    cout << endl ;
+    pause();
 
-    //stampaClassifica();
+
+
+
 }
 
 
