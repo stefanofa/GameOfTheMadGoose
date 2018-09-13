@@ -114,9 +114,8 @@ void CartaIndovina::applicaEffetto(Giocatore* player) {
             }
 
         }
-
+        pause();
     }
-    pause();
     pause();
 }
 

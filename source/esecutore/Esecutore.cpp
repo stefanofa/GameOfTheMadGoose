@@ -135,7 +135,7 @@ void Esecutore::play () {
             }
         }
         else  {
-            cout << this->giocatoreAttuale->getName()<<  "toccherebbe a te, ma per questo turno non puoi lanciare il dado!!" << endl << endl ;
+            cout << this->giocatoreAttuale->getName()<<  " toccherebbe a te, ma per questo turno non puoi lanciare il dado!!" << endl << endl ;
             pause();
         }
 
