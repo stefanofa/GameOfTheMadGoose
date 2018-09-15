@@ -135,6 +135,12 @@
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/Casella.h">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaAllOrNothing.cpp">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
+		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaAllOrNothing.h">
+			<Option target="GameOfTheMadGoose"/>
+		</Unit>
 		<Unit filename="/home/stefanofa/CLionProjects/GameOfTheMadGoose/source/casella/CasellaFermo.cpp">
 			<Option target="GameOfTheMadGoose"/>
 		</Unit>

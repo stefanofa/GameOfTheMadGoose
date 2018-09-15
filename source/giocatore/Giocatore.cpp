@@ -203,6 +203,13 @@ void Giocatore::add_points_abbassa(int value) {
     }
 }*/
 
+void Giocatore::setPoints(int num) {
+
+    if(num >= 0) this->punti = num;
+    else this->punti = 0;
+
+}
+
 int Giocatore::getPoints () {
     return this->punti;
 }

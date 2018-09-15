@@ -70,6 +70,7 @@ public:
     void decTurniDoublePoints();
     void decTurniFermo();
 
+    void setPoints(int num);
     int getPoints();
 
     void foundGOP();
