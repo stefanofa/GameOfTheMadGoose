@@ -26,7 +26,7 @@ un giocatore può vincere la partita, cioè trovare ed
 accumulare due carte speciali.  
 Oltre al tabellone, infatti, si ha a disposizione un
 mazzo di carte ed all’interno di questo mazzo
-esistono esattamente 3 carte speciali di nome “GOP”.  
+esistono esattamente 3 carte speciali di nome “**GOP**”.  
 Se un giocatore durante la partita riesce a pescare 2
 su 3 carte di questo tipo, vince automaticamente la
 partita.  
