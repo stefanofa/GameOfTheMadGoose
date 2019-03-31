@@ -32,9 +32,11 @@ su 3 carte di questo tipo, vince automaticamente la
 partita.
 Prima di iniziare la partita è necessario che i
 giocatori inseriscano le seguenti informazioni :
--Numero di giocatori (minimo 2, massimo 10);
--Nickname di ogni giocatore;
--Dimensione del tabellone (minimo 50, massimo 100);
--Dimensione del mazzo (minimo 40, massimo 100);
+
+- Numero di giocatori (minimo 2, massimo 10);
+- Nickname di ogni giocatore;
+- Dimensione del tabellone (minimo 50, massimo 100);
+- Dimensione del mazzo (minimo 40, massimo 100);
+
 Dopodiché il giocatore che ha inserito per primo il
 nickname dovrà premere invio per iniziare la partita.
