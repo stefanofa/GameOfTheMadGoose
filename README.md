@@ -4,15 +4,18 @@ Gioco dell'oca pazza ~2018
 Per generare il file eseguibile bisognerà spostarsi
 all’interno della directory e digitare da terminale,
 in ordine, i seguenti comandi :
--”cmake .”
--”make”
+```
+cmake .
+make
+```
 Verrà così generato il file eseguibile di nome
 “GameOfTheMadGoose”.
 Per farlo partire bisognerà, sempre da terminale,
 digitare :
--“./GameOfTheMadGoose”
-
-REGOLAMENTO : 
+```
+./GameOfTheMadGoose
+```
+## REGOLAMENTO : 
 
 In questa versione rivisitata del gioco dell'oca
 il vincitore viene decretato tramite punteggio,
