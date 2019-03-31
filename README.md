@@ -15,21 +15,21 @@ digitare :
 ```
 ./GameOfTheMadGoose
 ```
-## REGOLAMENTO : 
+### REGOLAMENTO :
 
 In questa versione rivisitata del gioco dell'oca
 il vincitore viene decretato tramite punteggio,
 quindi lo scopo del gioco è di riuscire ad accumulare
-almeno 1000 punti durante la partita.
+almeno 1000 punti durante la partita.  
 E’ presente però un’ulteriore modo tramite il quale
 un giocatore può vincere la partita, cioè trovare ed
-accumulare due carte speciali.
+accumulare due carte speciali.  
 Oltre al tabellone, infatti, si ha a disposizione un
 mazzo di carte ed all’interno di questo mazzo
-esistono esattamente 3 carte speciali di nome “GOP”.
+esistono esattamente 3 carte speciali di nome “GOP”.  
 Se un giocatore durante la partita riesce a pescare 2
 su 3 carte di questo tipo, vince automaticamente la
-partita.
+partita.  
 Prima di iniziare la partita è necessario che i
 giocatori inseriscano le seguenti informazioni :
 
